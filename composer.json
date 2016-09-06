@@ -1,0 +1,8 @@
+{
+    "require": {
+        "memio/memio": "^1.0",
+        "pastuhov/php-exec-command": "^1.1",
+        "MrRio/shellwrap": "^0.4.1",
+        "fabpot/goutte": "^3.1"
+    }
+}

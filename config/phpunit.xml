@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+        bootstrap="../vendor/autoload.php"
+        backupGlobals="false"
+        backupStaticAttributes="false"
+        cacheTokens="true"
+        colors="true"
+        convertErrorsToExceptions="true"
+        convertNoticesToExceptions="true"
+        convertWarningsToExceptions="true"
+        forceCoversAnnotation="true"
+        mapTestClassNameToCoveredClassName="true"
+        printerClass="PHPUnit_TextUI_ResultPrinter"
+        processIsolation="false"
+        stopOnError="false"
+        stopOnFailure="false"
+        stopOnIncomplete="false"
+        stopOnSkipped="false"
+        testSuiteLoaderClass="PHPUnit_Runner_StandardTestSuiteLoader"
+        strict="true"
+        verbose="false">>
+    <testsuites>
+        <!--<testsuite name="command">-->
+            <!--<directory>../tests/library/Command</directory>-->
+        <!--</testsuite>-->
+        <!--<testsuite name="build">-->
+            <!--<directory>../tests/library/Build</directory>-->
+        <!--</testsuite>-->
+        <!--<testsuite name="routes_tests">-->
+            <!--<directory>../tests/library/RoutesTesting</directory>-->
+        <!--</testsuite>-->
+        <testsuite name="run_tests">
+            <directory>../built_tests/</directory>
+        </testsuite>
+        <testsuite name="sitemap_tests">
+            <directory>../tests/library/SitemapTesting</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">src/</directory>
+        </whitelist>
+    </filter>
+    <logging>
+        <log type="coverage-clover" target="review/phpcov/coverage.xml" />
+        <log type="coverage-html"
+             target="review/phpcov/coverage"
+             showUncoveredFiles="true"
+             charset="UTF-8"
+             yui="true"
+             highlight="true"
+             lowUpperBound="35"
+             highLowerBound="70" />
+        <log type="coverage-php"
+             target="review/phpcov/coverage.serialized"
+             showUncoveredFiles="true" />
+        <log type="coverage-text"
+             target="review/phpcov/coverage.txt"
+             showUncoveredFiles="true" />
+        <log type="json" target="review/phpunit/phpunit.json" />
+        <log type="junit"
+             target="review/phpunit/junit.xml"
+             logIncompleteSkipped="true" />
+        <log type="tap" target="review/phpunit/phpunit.tap" />
+        <log type="testdox-html" target="review/phpunit/testdox.html" />
+        <log type="testdox-text" target="review/phpunit/testdox.txt" />
+    </logging>
+    <php>
+        <ini name="error_reporting" value="-1" />
+        <ini name="display_errors" value="1" />
+        <ini name="display_startup_errors" value="1" />
+        <ini name="log_errors" value="On" />
+        <ini name="log_errors_max_len" value="0" />
+        <ini name="ignore_repeated_errors" value="0" />
+        <ini name="ignore_repeated_source" value="0" />
+        <ini name="report_memleaks" value="1" />
+        <ini name="track_errors" value="1" />
+        <ini name="html_errors" value="0" />
+        <ini name="xmlrpc_errors" value="0" />
+        <ini name="xmlrpc_error_number" value="0" />
+        <ini name="docref_root" value=".php" />
+        <ini name="error_prepend_string" value="" />
+        <ini name="error_append_string" value="" />
+        <ini name="memory_limit" value="1024M" />
+        <ini name="short_open_tag" value="0" />
+    </php>
+</phpunit>
