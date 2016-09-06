@@ -807,3 +807,10 @@ ok 805 - built_tests\SitemapTest::testSitemapUrl804
 ok 806 - built_tests\SitemapTest::testSitemapUrl805
 ok 807 - built_tests\SitemapTest::testSitemapUrl806
 ok 808 - built_tests\SitemapTest::testSitemapUrl807
+ok 809 - built_tests\SitemapTest::testSitemapUrl808
+ok 810 - built_tests\SitemapTest::testSitemapUrl809
+ok 811 - built_tests\SitemapTest::testSitemapUrl810
+ok 812 - built_tests\SitemapTest::testSitemapUrl811
+ok 813 - built_tests\SitemapTest::testSitemapUrl812
+ok 814 - built_tests\SitemapTest::testSitemapUrl813
+ok 815 - built_tests\SitemapTest::testSitemapUrl814
