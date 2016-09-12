@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Twig_' => array($vendorDir . '/twig/twig/lib'),
+    'Prophecy\\' => array($vendorDir . '/phpspec/prophecy/src'),
     'MrRio' => array($vendorDir . '/mrrio/shellwrap/src'),
     'Boris' => array($vendorDir . '/d11wtq/boris/lib'),
 );

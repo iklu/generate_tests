@@ -12,6 +12,9 @@ use src\library\RoutesTesting\BuildRoutesTest;
  */
 class RoutesTest extends \PHPUnit_Framework_TestCase
 {
+    /**
+     * Run build test class for testing the routes
+     */
     public function testRoutes(){
 
         $routes = new Routes('../Meineke-WEB/');

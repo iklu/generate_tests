@@ -13,6 +13,9 @@ use src\library\Xml\XmlParser;
  */
 class SitemapTest extends \PHPUnit_Framework_TestCase
 {
+    /**
+     * Run build test class for testing the sitemap
+     */
     public function testSitemap(){
         $sitemap = new XmlParser('http://dev.meineke-redesign.beta-directory.com/page-sitemap.xml');
         $urls = $sitemap->parse();
