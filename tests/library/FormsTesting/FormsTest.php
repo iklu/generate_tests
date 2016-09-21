@@ -4,6 +4,8 @@ namespace testing\library\FormsTesting;
 
 use src\library\Xml\XmlParser;
 use src\library\FormsTesting\BuildFormsTest;
+
+
 /**
  * Created by PhpStorm.
  * User: ovidiu
@@ -13,8 +15,8 @@ use src\library\FormsTesting\BuildFormsTest;
 class FormsTest extends \PHPUnit_Framework_TestCase
 {
     public function testForms(){
-        
-        $sitemap = new XmlParser('http://dev.meineke-redesign.beta-directory.com/page-sitemap.xml');
+
+        $sitemap = new XmlParser('http://meineke.ca/page-sitemap.xml');
         $urls = $sitemap->parse();
         
         

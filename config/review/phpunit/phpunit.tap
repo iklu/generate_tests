@@ -1,10 +1,83 @@
 TAP version 13
-not ok 1 - Failure: tests\library\Selenium\WebDriverTest::testValidFormSubmission
+not ok 1 - Failure: built_tests\Form_149c104a80fe988f4785b6b02bf41090Test::testValidFormSubmission
   ---
   message: 'Failed asserting that two strings are equal.'
   severity: fail
   data:
-      got: "SIGN IN\nNot Registered?\n\nFind\nSUBMIT\nLocate me\nBOOK NOW\nTODAY\n09/21\nTHURSDAY\n09/22\nFRIDAY\n09/23\nSATURDAY\n09/24\nMORE\n\n\nCOUPONS\nSERVICES\nLOCATIONS\n(CURRENT)\nREWARDS\nABOUT\nFRANCHISE OPPORTUNITIES\nCUSTOMER SERVICE\nAlready have an account? Sign in here\nNEW MEMBER SIGN UP\nSign up for Meineke’s Rewards Program to take advantage of our auto care perks!\nKeep track of valuable rewards points\nRedeem points for free maintenance services\nView and keep track of your vehicle’s service history\nSave and access your favorite Meineke shop\nSign Up with Facebook\nOR\nSimply fill in your information below to create an account.\n\nPassword does not match the confirm password\nPrevious visit? Click Here\nPlease email me exclusive Meineke offers and promotions.\nI agree to the terms and conditions of services provided by Meineke\nCREATE ACCOUNT\nLOCATIONS\nCOUPONS\nSERVICES\nABOUT\nAeroplan\nRewards\nFleet Services\nRoadside Assistance\nMeineke Careers\nMeineke International\nSitemap\nCOMMUNITY\nMeineke Blog\nFranchise Opportunities\nA Driven Brands Company\nCONNECT WITH MEINEKE!\nPRIVACY POLICY\nA FAMILY OF DRIVEN BRANDS"
+      got: "SIGN IN\nNot Registered?\n\nFind\nSUBMIT\nLocate me\nBOOK NOW\nTODAY\n09/21\nTHURSDAY\n09/22\nFRIDAY\n09/23\nSATURDAY\n09/24\nMORE\n\n\nCOUPONS\nSERVICES\nLOCATIONS\n(CURRENT)\nREWARDS\nABOUT\nFRANCHISE OPPORTUNITIES\nCUSTOMER SERVICE\n  MEINEKE ABOUT FLEET SERVICES\nFleet Services\nWhat Makes Meineke the Smart Choice for Your Fleet?\nMeineke has put together an entire package of repair and preventative maintenance services, specializing in quick, timely repairs to minimize down time.\nFleet Benefits\nConvenient Hours\nExtended hours available in many cases.\nPreventative Car Care\nGet better fuel economy and minimize downtime.\nPick Up & Drop Off\nAvailable in most cases for your convenience!\nCorporate Oversight\nEnjoy a single point of contact and the peace of mind.\nFinancing & Payment\nSimple and quick processing. Centralized billing makes life easier.\nTowing Available\nAvailable in most cases.\nEmployee Benefits\nAdditional savings on personal vehicles as an added benefit.\nSafety Inspections\nHighly trained, experienced technicians.\nTowing Available\nAvailable in most cases.\nOnline Scheduling\nEasy, quick online scheduling.\nInterested in becoming a fleet customer?\nUse our contact form and tell us about your fleet service needs. Find out where you can bring your fleet at one of our locations here.\nI Want To Provide More Detailed Info About My Fleet.\n  SUBMIT\nExisting fleet account holder?\nEmail the Meineke fleet accounts department with your questions regarding invoicing, service pricing, business with smaller fleets, or franchise questions.\nLOCATIONS\nCOUPONS\nSERVICES\nABOUT\nAeroplan\nRewards\nFleet Services\nRoadside Assistance\nMeineke Careers\nMeineke International\nSitemap\nCOMMUNITY\nMeineke Blog\nFranchise Opportunities\nA Driven Brands Company\nCONNECT WITH MEINEKE!\nPRIVACY POLICY\nA FAMILY OF DRIVEN BRANDS"
       expected: 'Everything is Good!'
   ...
-1..1
+not ok 2 - Failure: built_tests\Form_193fdc35e4fc3e598666a93507676f32Test::testValidFormSubmission
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "SIGN IN\nNot Registered?\n\nFind\nSUBMIT\nLocate me\nBOOK NOW\nTODAY\n09/21\nTHURSDAY\n09/22\nFRIDAY\n09/23\nSATURDAY\n09/24\nMORE\n\n\nCOUPONS\nSERVICES\nLOCATIONS\n(CURRENT)\nREWARDS\nABOUT\nFRANCHISE OPPORTUNITIES\nCUSTOMER SERVICE\nMEINEKE ABOUT REAL ESTATE\nAutomotive Repair Real Estate Wanted\nDo you think you know the perfect spot for the next Meineke? Meineke Car Care Centres, Inc. is expanding throughout North America, and we are always looking for prospective locations. We will consider existing auto repair shops, buildings for conversions, multi-tenant sites and build-to-suit-sites. All sites must be zoned for automotive repair. Below is a list of some of the Meineke Car Care Centre site criteria.\nGood visibility and high traffic count (+20,000 AADT)\nParking available for 15 cars\nShop sizes approximately 900 - 1500 meters\nCeiling height of 4 meters clear\nFacility able to accommodate 5 or more bays with adequate storage and work areas\nIf you think you know where the next Meineke franchise should be, please contact us by filling out the form below.\nLocation information\nLocation state is required.\nProvince *\n  Country *\n  DATE AVAILABLE\n/\n/\nDeal type\n  Zoned for auto *\n  Contact information\nSUBMIT\nLOCATIONS\nCOUPONS\nSERVICES\nABOUT\nAeroplan\nRewards\nFleet Services\nRoadside Assistance\nMeineke Careers\nMeineke International\nSitemap\nCOMMUNITY\nMeineke Blog\nFranchise Opportunities\nA Driven Brands Company\nCONNECT WITH MEINEKE!\nPRIVACY POLICY\nA FAMILY OF DRIVEN BRANDS"
+      expected: 'Everything is Good!'
+  ...
+not ok 3 - Failure: built_tests\Form_59ce1c48d625127a027934000b517e98Test::testValidFormSubmission
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "SIGN IN\nNot Registered?\n\nFind\nSUBMIT\nLocate me\nBOOK NOW\nTODAY\n09/21\nTHURSDAY\n09/22\nFRIDAY\n09/23\nSATURDAY\n09/24\nMORE\n\n\nCOUPONS\nSERVICES\nLOCATIONS\n(CURRENT)\nREWARDS\nABOUT\nFRANCHISE OPPORTUNITIES\nCUSTOMER SERVICE\nMEINEKE CAREERS GENERAL SERVICE/OTHER\nGeneral Service/Other\nLooking to get your feet wet in a quality automotive car care centre? From administrative to technical tasks, each and every Meineke location has a variety of jobs that need to be performed in order to support day-to-day operations. We also offer training and learning opportunities in case you’d like to learn more about automotive aftercare. Whether you want to get your hands dirty or interact with customers every day, Meineke has a place for you.\nFROM OUR EMPLOYEES\nI have a very hectic family schedule and when I came to work at Meineke, they were nothing but accommodating and were happy to work around my crazy schedule.\n- Scott S., Manager\nAPPLICATION\nFILTER BY PROVINCE*\nFILTER BY CITY*\nFILTER BY CENTRE\nGeneral Service/Other\n  Attach Resume*\n*Only PDF files are supported.\n  SUBMIT\nLOCATIONS\nCOUPONS\nSERVICES\nABOUT\nAeroplan\nRewards\nFleet Services\nRoadside Assistance\nMeineke Careers\nMeineke International\nSitemap\nCOMMUNITY\nMeineke Blog\nFranchise Opportunities\nA Driven Brands Company\nCONNECT WITH MEINEKE!\nPRIVACY POLICY\nA FAMILY OF DRIVEN BRANDS"
+      expected: 'Everything is Good!'
+  ...
+not ok 4 - Failure: built_tests\Form_7644365387afdc284b491156e1113467Test::testValidFormSubmission
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "SIGN IN\nNot Registered?\n\nFind\nSUBMIT\nLocate me\nBOOK NOW\nTODAY\n09/21\nTHURSDAY\n09/22\nFRIDAY\n09/23\nSATURDAY\n09/24\nMORE\n\n\nCOUPONS\nSERVICES\nLOCATIONS\n(CURRENT)\nREWARDS\nABOUT\nFRANCHISE OPPORTUNITIES\nCUSTOMER SERVICE\nAccount Confirmation\nPlease check your email in order to confirm your account.\nRESEND ACTIVATION EMAIL\nLOCATIONS\nCOUPONS\nSERVICES\nABOUT\nAeroplan\nRewards\nFleet Services\nRoadside Assistance\nMeineke Careers\nMeineke International\nSitemap\nCOMMUNITY\nMeineke Blog\nFranchise Opportunities\nA Driven Brands Company\nCONNECT WITH MEINEKE!\nPRIVACY POLICY\nA FAMILY OF DRIVEN BRANDS"
+      expected: 'Everything is Good!'
+  ...
+not ok 5 - Failure: built_tests\Form_7be52c6a8c9e0d5ac04754e92d1d31c0Test::testValidFormSubmission
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "SIGN IN\nNot Registered?\n\nFind\nSUBMIT\nLocate me\nBOOK NOW\nTODAY\n09/21\nTHURSDAY\n09/22\nFRIDAY\n09/23\nSATURDAY\n09/24\nMORE\n\n\nCOUPONS\nSERVICES\nLOCATIONS\n(CURRENT)\nREWARDS\nABOUT\nFRANCHISE OPPORTUNITIES\nCUSTOMER SERVICE\nMEINEKE FEATURED SHOPS\nFeatured Meineke Centres\nSince our first location opened in Houston, Texas in 1972, we've opened hundreds of centres across the nation. Join us in celebrating our grand openings, re-openings and more!\nFilter Locations by Province:\nSHOW ALL\n  No store available.\nHAVE QUESTIONS? We Want to Hear Back From You\nSEND FEEDBACK\nLOCATIONS\nCOUPONS\nSERVICES\nABOUT\nAeroplan\nRewards\nFleet Services\nRoadside Assistance\nMeineke Careers\nMeineke International\nSitemap\nCOMMUNITY\nMeineke Blog\nFranchise Opportunities\nA Driven Brands Company\nCONNECT WITH MEINEKE!\nPRIVACY POLICY\nA FAMILY OF DRIVEN BRANDS"
+      expected: 'Everything is Good!'
+  ...
+not ok 6 - Failure: built_tests\Form_9687ca0bb48bef602ebc08cb9886f9bcTest::testValidFormSubmission
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "SIGN IN\nNot Registered?\n\nFind\nSUBMIT\nLocate me\nBOOK NOW\nTODAY\n09/21\nTHURSDAY\n09/22\nFRIDAY\n09/23\nSATURDAY\n09/24\nMORE\n\n\nCOUPONS\nSERVICES\nLOCATIONS\n(CURRENT)\nREWARDS\nABOUT\nFRANCHISE OPPORTUNITIES\nCUSTOMER SERVICE\nMEINEKE COUPONS AND DEALS\nCoupons & Deals: See Current Auto Repair Discounts - Meineke\nLocate exclusive coupons and offers for a centre near you.\nLocate me\nAt Meineke, we believe car care should be affordable. Find a centre near you to learn about exclusive savings.\nSign up for EXCLUSIVE OFFERS from Meineke!\n  SUBMIT\nLOCATIONS\nCOUPONS\nSERVICES\nABOUT\nAeroplan\nRewards\nFleet Services\nRoadside Assistance\nMeineke Careers\nMeineke International\nSitemap\nCOMMUNITY\nMeineke Blog\nFranchise Opportunities\nA Driven Brands Company\nCONNECT WITH MEINEKE!\nPRIVACY POLICY\nA FAMILY OF DRIVEN BRANDS"
+      expected: 'Everything is Good!'
+  ...
+not ok 7 - Failure: built_tests\Form_98380ed1262d71283a97a3e05bee5668Test::testValidFormSubmission
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "SIGN IN\nNot Registered?\n\nFind\nSUBMIT\nLocate me\nBOOK NOW\nTODAY\n09/21\nTHURSDAY\n09/22\nFRIDAY\n09/23\nSATURDAY\n09/24\nMORE\n\n\nCOUPONS\nSERVICES\nLOCATIONS\n(CURRENT)\nREWARDS\nABOUT\nFRANCHISE OPPORTUNITIES\nCUSTOMER SERVICE\nYour account is not active.\nRESEND ACTIVATION CODE\nNeed an account? Register here\nMEMBER LOGIN\nLog in to Meineke’s Rewards Program to take advantage of our auto care perks!\nSign in with Facebook\nSign in to access Meineke Rewards points, Vehicles, Service History, and more.\nEmail\nPassword\nMinimum of 6 characters\nForgot password?\nSIGN IN\nLOCATIONS\nCOUPONS\nSERVICES\nABOUT\nAeroplan\nRewards\nFleet Services\nRoadside Assistance\nMeineke Careers\nMeineke International\nSitemap\nCOMMUNITY\nMeineke Blog\nFranchise Opportunities\nA Driven Brands Company\nCONNECT WITH MEINEKE!\nPRIVACY POLICY\nA FAMILY OF DRIVEN BRANDS"
+      expected: 'Everything is Good!'
+  ...
+not ok 8 - Failure: built_tests\Form_a73f257eb1c565b4701c539e96968fe7Test::testValidFormSubmission
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "SIGN IN\nNot Registered?\n\nFind\nSUBMIT\nLocate me\nBOOK NOW\nTODAY\n09/21\nTHURSDAY\n09/22\nFRIDAY\n09/23\nSATURDAY\n09/24\nMORE\n\n\nCOUPONS\nSERVICES\nLOCATIONS\n(CURRENT)\nREWARDS\nABOUT\nFRANCHISE OPPORTUNITIES\nCUSTOMER SERVICE\nMEINEKE SEARCH\nLocate me\nLocate your nearest Meineke by using the Store Locator\nMeineke Locations by Province\nSorry, we couldn't find any locations\nCanada Meineke Locations\nAlberta\nManitoba\nNewfoundland and Labrador\nOntario\nMap data ©2016 Google, INEGI\nTerms of Use\nReport a map error\nMap\nSatellite\nLOCATIONS\nCOUPONS\nSERVICES\nABOUT\nAeroplan\nRewards\nFleet Services\nRoadside Assistance\nMeineke Careers\nMeineke International\nSitemap\nCOMMUNITY\nMeineke Blog\nFranchise Opportunities\nA Driven Brands Company\nCONNECT WITH MEINEKE!\nPRIVACY POLICY\nA FAMILY OF DRIVEN BRANDS"
+      expected: 'Everything is Good!'
+  ...
+not ok 9 - Failure: built_tests\Form_ae1bc0b85c935e8cbf931e25753df5e5Test::testValidFormSubmission
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "SIGN IN\nNot Registered?\n\nFind\nSUBMIT\nLocate me\nBOOK NOW\nTODAY\n09/21\nTHURSDAY\n09/22\nFRIDAY\n09/23\nSATURDAY\n09/24\nMORE\n\n\nCOUPONS\nSERVICES\nLOCATIONS\n(CURRENT)\nREWARDS\nABOUT\nFRANCHISE OPPORTUNITIES\nCUSTOMER SERVICE\nMEINEKE COMING SOON\nNew Locations Coming Soon\nWe’re opening many more shops across the nation and around the world, check out the locations opening soon and get notified when they do!\nFilter Locations by Province:\nSHOW ALL\n  ONTARIO\nMeineke Hamilton\n970 Barton Street East\nHamilton, ON L8L 3C7\nSee Shop Page\nCHECK BACK REGULARLY FOR SHOPS OPENING SOON NEAR YOU!\nLocate a Shop\nSUBMIT\nLocate me\nHAVE QUESTIONS? We Want to Hear Back From You\nSEND FEEDBACK\nLOCATIONS\nCOUPONS\nSERVICES\nABOUT\nAeroplan\nRewards\nFleet Services\nRoadside Assistance\nMeineke Careers\nMeineke International\nSitemap\nCOMMUNITY\nMeineke Blog\nFranchise Opportunities\nA Driven Brands Company\nCONNECT WITH MEINEKE!\nPRIVACY POLICY\nA FAMILY OF DRIVEN BRANDS"
+      expected: 'Everything is Good!'
+  ...
+not ok 10 - Error: built_tests\Form_cdc6b8d6950e3a02b1ddab69cd6dea12Test::testValidFormSubmission
+not ok 11 - Failure: built_tests\Form_fa0b7c417ef7e539f2632fde10fc67bdTest::testValidFormSubmission
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "SIGN IN\nNot Registered?\n\nFind\nSUBMIT\nLocate me\nBOOK NOW\nTODAY\n09/21\nTHURSDAY\n09/22\nFRIDAY\n09/23\nSATURDAY\n09/24\nMORE\n\n\nCOUPONS\nSERVICES\nLOCATIONS\n(CURRENT)\nREWARDS\nABOUT\nFRANCHISE OPPORTUNITIES\nCUSTOMER SERVICE\nAlready have an account? Sign in here\nNEW MEMBER SIGN UP\nSign up for Meineke’s Rewards Program to take advantage of our auto care perks!\nKeep track of valuable rewards points\nRedeem points for free maintenance services\nView and keep track of your vehicle’s service history\nSave and access your favorite Meineke shop\nSign Up with Facebook\nOR\nSimply fill in your information below to create an account.\n\nWe couldn’t find anything matching that phone number or ID.\nPrevious visit? Click Here\nPlease email me exclusive Meineke offers and promotions.\nI agree to the terms and conditions of services provided by Meineke\nCREATE ACCOUNT\nLOCATIONS\nCOUPONS\nSERVICES\nABOUT\nAeroplan\nRewards\nFleet Services\nRoadside Assistance\nMeineke Careers\nMeineke International\nSitemap\nCOMMUNITY\nMeineke Blog\nFranchise Opportunities\nA Driven Brands Company\nCONNECT WITH MEINEKE!\nPRIVACY POLICY\nA FAMILY OF DRIVEN BRANDS"
+      expected: 'Everything is Good!'
+  ...
+1..11

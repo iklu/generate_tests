@@ -1,30 +1,312 @@
 {
     "event": "suiteStart",
-    "suite": "selenium_tests",
-    "tests": 1
+    "suite": "run_tests",
+    "tests": 11
 }{
     "event": "suiteStart",
-    "suite": "tests\\library\\Selenium\\WebDriverTest",
+    "suite": "built_tests\\Form_149c104a80fe988f4785b6b02bf41090Test",
     "tests": 1
 }{
     "event": "testStart",
-    "suite": "tests\\library\\Selenium\\WebDriverTest",
-    "test": "tests\\library\\Selenium\\WebDriverTest::testValidFormSubmission"
+    "suite": "built_tests\\Form_149c104a80fe988f4785b6b02bf41090Test",
+    "test": "built_tests\\Form_149c104a80fe988f4785b6b02bf41090Test::testValidFormSubmission"
 }{
     "event": "test",
-    "suite": "tests\\library\\Selenium\\WebDriverTest",
-    "test": "tests\\library\\Selenium\\WebDriverTest::testValidFormSubmission",
+    "suite": "built_tests\\Form_149c104a80fe988f4785b6b02bf41090Test",
+    "test": "built_tests\\Form_149c104a80fe988f4785b6b02bf41090Test::testValidFormSubmission",
     "status": "fail",
-    "time": 4.4567677974701,
+    "time": 3.0000500679016,
     "trace": [
         {
-            "file": "\/var\/www\/html\/MEINEKE_GENERATE_TEST_CLASSES\/tests\/library\/Selenium\/WebDriverTest.php",
+            "file": "\/var\/www\/html\/MEINEKE_GENERATE_TEST_CLASSES\/built_tests\/Form_149c104a80fe988f4785b6b02bf41090Test.php",
+            "line": 79,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::"
+        }
+    ],
+    "message": "Failed asserting that two strings are equal.\n--- Expected\n+++ Actual\n@@ @@\n-'Everything is Good!'\n+'SIGN IN\n+Not Registered?\n+\n+Find\n+SUBMIT\n+Locate me\n+BOOK NOW\n+TODAY\n+09\/21\n+THURSDAY\n+09\/22\n+FRIDAY\n+09\/23\n+SATURDAY\n+09\/24\n+MORE\n+\n+\n+COUPONS\n+SERVICES\n+LOCATIONS\n+(CURRENT)\n+REWARDS\n+ABOUT\n+FRANCHISE OPPORTUNITIES\n+CUSTOMER SERVICE\n+  MEINEKE ABOUT FLEET SERVICES\n+Fleet Services\n+What Makes Meineke the Smart Choice for Your Fleet?\n+Meineke has put together an entire package of repair and preventative maintenance services, specializing in quick, timely repairs to minimize down time.\n+Fleet Benefits\n+Convenient Hours\n+Extended hours available in many cases.\n+Preventative Car Care\n+Get better fuel economy and minimize downtime.\n+Pick Up & Drop Off\n+Available in most cases for your convenience!\n+Corporate Oversight\n+Enjoy a single point of contact and the peace of mind.\n+Financing & Payment\n+Simple and quick processing. Centralized billing makes life easier.\n+Towing Available\n+Available in most cases.\n+Employee Benefits\n+Additional savings on personal vehicles as an added benefit.\n+Safety Inspections\n+Highly trained, experienced technicians.\n+Towing Available\n+Available in most cases.\n+Online Scheduling\n+Easy, quick online scheduling.\n+Interested in becoming a fleet customer?\n+Use our contact form and tell us about your fleet service needs. Find out where you can bring your fleet at one of our locations here.\n+I Want To Provide More Detailed Info About My Fleet.\n+  SUBMIT\n+Existing fleet account holder?\n+Email the Meineke fleet accounts department with your questions regarding invoicing, service pricing, business with smaller fleets, or franchise questions.\n+LOCATIONS\n+COUPONS\n+SERVICES\n+ABOUT\n+Aeroplan\n+Rewards\n+Fleet Services\n+Roadside Assistance\n+Meineke Careers\n+Meineke International\n+Sitemap\n+COMMUNITY\n+Meineke Blog\n+Franchise Opportunities\n+A Driven Brands Company\n+CONNECT WITH MEINEKE!\n+PRIVACY POLICY\n+A FAMILY OF DRIVEN BRANDS'\n",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "built_tests\\Form_193fdc35e4fc3e598666a93507676f32Test",
+    "tests": 1
+}{
+    "event": "testStart",
+    "suite": "built_tests\\Form_193fdc35e4fc3e598666a93507676f32Test",
+    "test": "built_tests\\Form_193fdc35e4fc3e598666a93507676f32Test::testValidFormSubmission"
+}{
+    "event": "test",
+    "suite": "built_tests\\Form_193fdc35e4fc3e598666a93507676f32Test",
+    "test": "built_tests\\Form_193fdc35e4fc3e598666a93507676f32Test::testValidFormSubmission",
+    "status": "fail",
+    "time": 4.1010410785675,
+    "trace": [
+        {
+            "file": "\/var\/www\/html\/MEINEKE_GENERATE_TEST_CLASSES\/built_tests\/Form_193fdc35e4fc3e598666a93507676f32Test.php",
+            "line": 91,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::"
+        }
+    ],
+    "message": "Failed asserting that two strings are equal.\n--- Expected\n+++ Actual\n@@ @@\n-'Everything is Good!'\n+'SIGN IN\n+Not Registered?\n+\n+Find\n+SUBMIT\n+Locate me\n+BOOK NOW\n+TODAY\n+09\/21\n+THURSDAY\n+09\/22\n+FRIDAY\n+09\/23\n+SATURDAY\n+09\/24\n+MORE\n+\n+\n+COUPONS\n+SERVICES\n+LOCATIONS\n+(CURRENT)\n+REWARDS\n+ABOUT\n+FRANCHISE OPPORTUNITIES\n+CUSTOMER SERVICE\n+MEINEKE ABOUT REAL ESTATE\n+Automotive Repair Real Estate Wanted\n+Do you think you know the perfect spot for the next Meineke? Meineke Car Care Centres, Inc. is expanding throughout North America, and we are always looking for prospective locations. We will consider existing auto repair shops, buildings for conversions, multi-tenant sites and build-to-suit-sites. All sites must be zoned for automotive repair. Below is a list of some of the Meineke Car Care Centre site criteria.\n+Good visibility and high traffic count (+20,000 AADT)\n+Parking available for 15 cars\n+Shop sizes approximately 900 - 1500 meters\n+Ceiling height of 4 meters clear\n+Facility able to accommodate 5 or more bays with adequate storage and work areas\n+If you think you know where the next Meineke franchise should be, please contact us by filling out the form below.\n+Location information\n+Location state is required.\n+Province *\n+  Country *\n+  DATE AVAILABLE\n+\/\n+\/\n+Deal type\n+  Zoned for auto *\n+  Contact information\n+SUBMIT\n+LOCATIONS\n+COUPONS\n+SERVICES\n+ABOUT\n+Aeroplan\n+Rewards\n+Fleet Services\n+Roadside Assistance\n+Meineke Careers\n+Meineke International\n+Sitemap\n+COMMUNITY\n+Meineke Blog\n+Franchise Opportunities\n+A Driven Brands Company\n+CONNECT WITH MEINEKE!\n+PRIVACY POLICY\n+A FAMILY OF DRIVEN BRANDS'\n",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "built_tests\\Form_59ce1c48d625127a027934000b517e98Test",
+    "tests": 1
+}{
+    "event": "testStart",
+    "suite": "built_tests\\Form_59ce1c48d625127a027934000b517e98Test",
+    "test": "built_tests\\Form_59ce1c48d625127a027934000b517e98Test::testValidFormSubmission"
+}{
+    "event": "test",
+    "suite": "built_tests\\Form_59ce1c48d625127a027934000b517e98Test",
+    "test": "built_tests\\Form_59ce1c48d625127a027934000b517e98Test::testValidFormSubmission",
+    "status": "fail",
+    "time": 2.5220170021057,
+    "trace": [
+        {
+            "file": "\/var\/www\/html\/MEINEKE_GENERATE_TEST_CLASSES\/built_tests\/Form_59ce1c48d625127a027934000b517e98Test.php",
             "line": 83,
             "function": "assertEquals",
             "class": "PHPUnit_Framework_Assert",
             "type": "::"
         }
     ],
-    "message": "Failed asserting that two strings are equal.\n--- Expected\n+++ Actual\n@@ @@\n-'Everything is Good!'\n+'SIGN IN\n+Not Registered?\n+\n+Find\n+SUBMIT\n+Locate me\n+BOOK NOW\n+TODAY\n+09\/21\n+THURSDAY\n+09\/22\n+FRIDAY\n+09\/23\n+SATURDAY\n+09\/24\n+MORE\n+\n+\n+COUPONS\n+SERVICES\n+LOCATIONS\n+(CURRENT)\n+REWARDS\n+ABOUT\n+FRANCHISE OPPORTUNITIES\n+CUSTOMER SERVICE\n+Already have an account? Sign in here\n+NEW MEMBER SIGN UP\n+Sign up for Meineke\u2019s Rewards Program to take advantage of our auto care perks!\n+Keep track of valuable rewards points\n+Redeem points for free maintenance services\n+View and keep track of your vehicle\u2019s service history\n+Save and access your favorite Meineke shop\n+Sign Up with Facebook\n+OR\n+Simply fill in your information below to create an account.\n+\n+Password does not match the confirm password\n+Previous visit? Click Here\n+Please email me exclusive Meineke offers and promotions.\n+I agree to the terms and conditions of services provided by Meineke\n+CREATE ACCOUNT\n+LOCATIONS\n+COUPONS\n+SERVICES\n+ABOUT\n+Aeroplan\n+Rewards\n+Fleet Services\n+Roadside Assistance\n+Meineke Careers\n+Meineke International\n+Sitemap\n+COMMUNITY\n+Meineke Blog\n+Franchise Opportunities\n+A Driven Brands Company\n+CONNECT WITH MEINEKE!\n+PRIVACY POLICY\n+A FAMILY OF DRIVEN BRANDS'\n",
+    "message": "Failed asserting that two strings are equal.\n--- Expected\n+++ Actual\n@@ @@\n-'Everything is Good!'\n+'SIGN IN\n+Not Registered?\n+\n+Find\n+SUBMIT\n+Locate me\n+BOOK NOW\n+TODAY\n+09\/21\n+THURSDAY\n+09\/22\n+FRIDAY\n+09\/23\n+SATURDAY\n+09\/24\n+MORE\n+\n+\n+COUPONS\n+SERVICES\n+LOCATIONS\n+(CURRENT)\n+REWARDS\n+ABOUT\n+FRANCHISE OPPORTUNITIES\n+CUSTOMER SERVICE\n+MEINEKE CAREERS GENERAL SERVICE\/OTHER\n+General Service\/Other\n+Looking to get your feet wet in a quality automotive car care centre? From administrative to technical tasks, each and every Meineke location has a variety of jobs that need to be performed in order to support day-to-day operations. We also offer training and learning opportunities in case you\u2019d like to learn more about automotive aftercare. Whether you want to get your hands dirty or interact with customers every day, Meineke has a place for you.\n+FROM OUR EMPLOYEES\n+I have a very hectic family schedule and when I came to work at Meineke, they were nothing but accommodating and were happy to work around my crazy schedule.\n+- Scott S., Manager\n+APPLICATION\n+FILTER BY PROVINCE*\n+FILTER BY CITY*\n+FILTER BY CENTRE\n+General Service\/Other\n+  Attach Resume*\n+*Only PDF files are supported.\n+  SUBMIT\n+LOCATIONS\n+COUPONS\n+SERVICES\n+ABOUT\n+Aeroplan\n+Rewards\n+Fleet Services\n+Roadside Assistance\n+Meineke Careers\n+Meineke International\n+Sitemap\n+COMMUNITY\n+Meineke Blog\n+Franchise Opportunities\n+A Driven Brands Company\n+CONNECT WITH MEINEKE!\n+PRIVACY POLICY\n+A FAMILY OF DRIVEN BRANDS'\n",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "built_tests\\Form_7644365387afdc284b491156e1113467Test",
+    "tests": 1
+}{
+    "event": "testStart",
+    "suite": "built_tests\\Form_7644365387afdc284b491156e1113467Test",
+    "test": "built_tests\\Form_7644365387afdc284b491156e1113467Test::testValidFormSubmission"
+}{
+    "event": "test",
+    "suite": "built_tests\\Form_7644365387afdc284b491156e1113467Test",
+    "test": "built_tests\\Form_7644365387afdc284b491156e1113467Test::testValidFormSubmission",
+    "status": "fail",
+    "time": 6.6709909439087,
+    "trace": [
+        {
+            "file": "\/var\/www\/html\/MEINEKE_GENERATE_TEST_CLASSES\/built_tests\/Form_7644365387afdc284b491156e1113467Test.php",
+            "line": 83,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::"
+        }
+    ],
+    "message": "Failed asserting that two strings are equal.\n--- Expected\n+++ Actual\n@@ @@\n-'Everything is Good!'\n+'SIGN IN\n+Not Registered?\n+\n+Find\n+SUBMIT\n+Locate me\n+BOOK NOW\n+TODAY\n+09\/21\n+THURSDAY\n+09\/22\n+FRIDAY\n+09\/23\n+SATURDAY\n+09\/24\n+MORE\n+\n+\n+COUPONS\n+SERVICES\n+LOCATIONS\n+(CURRENT)\n+REWARDS\n+ABOUT\n+FRANCHISE OPPORTUNITIES\n+CUSTOMER SERVICE\n+Account Confirmation\n+Please check your email in order to confirm your account.\n+RESEND ACTIVATION EMAIL\n+LOCATIONS\n+COUPONS\n+SERVICES\n+ABOUT\n+Aeroplan\n+Rewards\n+Fleet Services\n+Roadside Assistance\n+Meineke Careers\n+Meineke International\n+Sitemap\n+COMMUNITY\n+Meineke Blog\n+Franchise Opportunities\n+A Driven Brands Company\n+CONNECT WITH MEINEKE!\n+PRIVACY POLICY\n+A FAMILY OF DRIVEN BRANDS'\n",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "built_tests\\Form_7be52c6a8c9e0d5ac04754e92d1d31c0Test",
+    "tests": 1
+}{
+    "event": "testStart",
+    "suite": "built_tests\\Form_7be52c6a8c9e0d5ac04754e92d1d31c0Test",
+    "test": "built_tests\\Form_7be52c6a8c9e0d5ac04754e92d1d31c0Test::testValidFormSubmission"
+}{
+    "event": "test",
+    "suite": "built_tests\\Form_7be52c6a8c9e0d5ac04754e92d1d31c0Test",
+    "test": "built_tests\\Form_7be52c6a8c9e0d5ac04754e92d1d31c0Test::testValidFormSubmission",
+    "status": "fail",
+    "time": 3.6019201278687,
+    "trace": [
+        {
+            "file": "\/var\/www\/html\/MEINEKE_GENERATE_TEST_CLASSES\/built_tests\/Form_7be52c6a8c9e0d5ac04754e92d1d31c0Test.php",
+            "line": 55,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::"
+        }
+    ],
+    "message": "Failed asserting that two strings are equal.\n--- Expected\n+++ Actual\n@@ @@\n-'Everything is Good!'\n+'SIGN IN\n+Not Registered?\n+\n+Find\n+SUBMIT\n+Locate me\n+BOOK NOW\n+TODAY\n+09\/21\n+THURSDAY\n+09\/22\n+FRIDAY\n+09\/23\n+SATURDAY\n+09\/24\n+MORE\n+\n+\n+COUPONS\n+SERVICES\n+LOCATIONS\n+(CURRENT)\n+REWARDS\n+ABOUT\n+FRANCHISE OPPORTUNITIES\n+CUSTOMER SERVICE\n+MEINEKE FEATURED SHOPS\n+Featured Meineke Centres\n+Since our first location opened in Houston, Texas in 1972, we've opened hundreds of centres across the nation. Join us in celebrating our grand openings, re-openings and more!\n+Filter Locations by Province:\n+SHOW ALL\n+  No store available.\n+HAVE QUESTIONS? We Want to Hear Back From You\n+SEND FEEDBACK\n+LOCATIONS\n+COUPONS\n+SERVICES\n+ABOUT\n+Aeroplan\n+Rewards\n+Fleet Services\n+Roadside Assistance\n+Meineke Careers\n+Meineke International\n+Sitemap\n+COMMUNITY\n+Meineke Blog\n+Franchise Opportunities\n+A Driven Brands Company\n+CONNECT WITH MEINEKE!\n+PRIVACY POLICY\n+A FAMILY OF DRIVEN BRANDS'\n",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "built_tests\\Form_9687ca0bb48bef602ebc08cb9886f9bcTest",
+    "tests": 1
+}{
+    "event": "testStart",
+    "suite": "built_tests\\Form_9687ca0bb48bef602ebc08cb9886f9bcTest",
+    "test": "built_tests\\Form_9687ca0bb48bef602ebc08cb9886f9bcTest::testValidFormSubmission"
+}{
+    "event": "test",
+    "suite": "built_tests\\Form_9687ca0bb48bef602ebc08cb9886f9bcTest",
+    "test": "built_tests\\Form_9687ca0bb48bef602ebc08cb9886f9bcTest::testValidFormSubmission",
+    "status": "fail",
+    "time": 2.3658699989319,
+    "trace": [
+        {
+            "file": "\/var\/www\/html\/MEINEKE_GENERATE_TEST_CLASSES\/built_tests\/Form_9687ca0bb48bef602ebc08cb9886f9bcTest.php",
+            "line": 59,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::"
+        }
+    ],
+    "message": "Failed asserting that two strings are equal.\n--- Expected\n+++ Actual\n@@ @@\n-'Everything is Good!'\n+'SIGN IN\n+Not Registered?\n+\n+Find\n+SUBMIT\n+Locate me\n+BOOK NOW\n+TODAY\n+09\/21\n+THURSDAY\n+09\/22\n+FRIDAY\n+09\/23\n+SATURDAY\n+09\/24\n+MORE\n+\n+\n+COUPONS\n+SERVICES\n+LOCATIONS\n+(CURRENT)\n+REWARDS\n+ABOUT\n+FRANCHISE OPPORTUNITIES\n+CUSTOMER SERVICE\n+MEINEKE COUPONS AND DEALS\n+Coupons & Deals: See Current Auto Repair Discounts - Meineke\n+Locate exclusive coupons and offers for a centre near you.\n+Locate me\n+At Meineke, we believe car care should be affordable. Find a centre near you to learn about exclusive savings.\n+Sign up for EXCLUSIVE OFFERS from Meineke!\n+  SUBMIT\n+LOCATIONS\n+COUPONS\n+SERVICES\n+ABOUT\n+Aeroplan\n+Rewards\n+Fleet Services\n+Roadside Assistance\n+Meineke Careers\n+Meineke International\n+Sitemap\n+COMMUNITY\n+Meineke Blog\n+Franchise Opportunities\n+A Driven Brands Company\n+CONNECT WITH MEINEKE!\n+PRIVACY POLICY\n+A FAMILY OF DRIVEN BRANDS'\n",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "built_tests\\Form_98380ed1262d71283a97a3e05bee5668Test",
+    "tests": 1
+}{
+    "event": "testStart",
+    "suite": "built_tests\\Form_98380ed1262d71283a97a3e05bee5668Test",
+    "test": "built_tests\\Form_98380ed1262d71283a97a3e05bee5668Test::testValidFormSubmission"
+}{
+    "event": "test",
+    "suite": "built_tests\\Form_98380ed1262d71283a97a3e05bee5668Test",
+    "test": "built_tests\\Form_98380ed1262d71283a97a3e05bee5668Test::testValidFormSubmission",
+    "status": "fail",
+    "time": 3.9534211158752,
+    "trace": [
+        {
+            "file": "\/var\/www\/html\/MEINEKE_GENERATE_TEST_CLASSES\/built_tests\/Form_98380ed1262d71283a97a3e05bee5668Test.php",
+            "line": 63,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::"
+        }
+    ],
+    "message": "Failed asserting that two strings are equal.\n--- Expected\n+++ Actual\n@@ @@\n-'Everything is Good!'\n+'SIGN IN\n+Not Registered?\n+\n+Find\n+SUBMIT\n+Locate me\n+BOOK NOW\n+TODAY\n+09\/21\n+THURSDAY\n+09\/22\n+FRIDAY\n+09\/23\n+SATURDAY\n+09\/24\n+MORE\n+\n+\n+COUPONS\n+SERVICES\n+LOCATIONS\n+(CURRENT)\n+REWARDS\n+ABOUT\n+FRANCHISE OPPORTUNITIES\n+CUSTOMER SERVICE\n+Your account is not active.\n+RESEND ACTIVATION CODE\n+Need an account? Register here\n+MEMBER LOGIN\n+Log in to Meineke\u2019s Rewards Program to take advantage of our auto care perks!\n+Sign in with Facebook\n+Sign in to access Meineke Rewards points, Vehicles, Service History, and more.\n+Email\n+Password\n+Minimum of 6 characters\n+Forgot password?\n+SIGN IN\n+LOCATIONS\n+COUPONS\n+SERVICES\n+ABOUT\n+Aeroplan\n+Rewards\n+Fleet Services\n+Roadside Assistance\n+Meineke Careers\n+Meineke International\n+Sitemap\n+COMMUNITY\n+Meineke Blog\n+Franchise Opportunities\n+A Driven Brands Company\n+CONNECT WITH MEINEKE!\n+PRIVACY POLICY\n+A FAMILY OF DRIVEN BRANDS'\n",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "built_tests\\Form_a73f257eb1c565b4701c539e96968fe7Test",
+    "tests": 1
+}{
+    "event": "testStart",
+    "suite": "built_tests\\Form_a73f257eb1c565b4701c539e96968fe7Test",
+    "test": "built_tests\\Form_a73f257eb1c565b4701c539e96968fe7Test::testValidFormSubmission"
+}{
+    "event": "test",
+    "suite": "built_tests\\Form_a73f257eb1c565b4701c539e96968fe7Test",
+    "test": "built_tests\\Form_a73f257eb1c565b4701c539e96968fe7Test::testValidFormSubmission",
+    "status": "fail",
+    "time": 4.2364740371704,
+    "trace": [
+        {
+            "file": "\/var\/www\/html\/MEINEKE_GENERATE_TEST_CLASSES\/built_tests\/Form_a73f257eb1c565b4701c539e96968fe7Test.php",
+            "line": 55,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::"
+        }
+    ],
+    "message": "Failed asserting that two strings are equal.\n--- Expected\n+++ Actual\n@@ @@\n-'Everything is Good!'\n+'SIGN IN\n+Not Registered?\n+\n+Find\n+SUBMIT\n+Locate me\n+BOOK NOW\n+TODAY\n+09\/21\n+THURSDAY\n+09\/22\n+FRIDAY\n+09\/23\n+SATURDAY\n+09\/24\n+MORE\n+\n+\n+COUPONS\n+SERVICES\n+LOCATIONS\n+(CURRENT)\n+REWARDS\n+ABOUT\n+FRANCHISE OPPORTUNITIES\n+CUSTOMER SERVICE\n+MEINEKE SEARCH\n+Locate me\n+Locate your nearest Meineke by using the Store Locator\n+Meineke Locations by Province\n+Sorry, we couldn't find any locations\n+Canada Meineke Locations\n+Alberta\n+Manitoba\n+Newfoundland and Labrador\n+Ontario\n+Map data \u00a92016 Google, INEGI\n+Terms of Use\n+Report a map error\n+Map\n+Satellite\n+LOCATIONS\n+COUPONS\n+SERVICES\n+ABOUT\n+Aeroplan\n+Rewards\n+Fleet Services\n+Roadside Assistance\n+Meineke Careers\n+Meineke International\n+Sitemap\n+COMMUNITY\n+Meineke Blog\n+Franchise Opportunities\n+A Driven Brands Company\n+CONNECT WITH MEINEKE!\n+PRIVACY POLICY\n+A FAMILY OF DRIVEN BRANDS'\n",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "built_tests\\Form_ae1bc0b85c935e8cbf931e25753df5e5Test",
+    "tests": 1
+}{
+    "event": "testStart",
+    "suite": "built_tests\\Form_ae1bc0b85c935e8cbf931e25753df5e5Test",
+    "test": "built_tests\\Form_ae1bc0b85c935e8cbf931e25753df5e5Test::testValidFormSubmission"
+}{
+    "event": "test",
+    "suite": "built_tests\\Form_ae1bc0b85c935e8cbf931e25753df5e5Test",
+    "test": "built_tests\\Form_ae1bc0b85c935e8cbf931e25753df5e5Test::testValidFormSubmission",
+    "status": "fail",
+    "time": 2.5782899856567,
+    "trace": [
+        {
+            "file": "\/var\/www\/html\/MEINEKE_GENERATE_TEST_CLASSES\/built_tests\/Form_ae1bc0b85c935e8cbf931e25753df5e5Test.php",
+            "line": 55,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::"
+        }
+    ],
+    "message": "Failed asserting that two strings are equal.\n--- Expected\n+++ Actual\n@@ @@\n-'Everything is Good!'\n+'SIGN IN\n+Not Registered?\n+\n+Find\n+SUBMIT\n+Locate me\n+BOOK NOW\n+TODAY\n+09\/21\n+THURSDAY\n+09\/22\n+FRIDAY\n+09\/23\n+SATURDAY\n+09\/24\n+MORE\n+\n+\n+COUPONS\n+SERVICES\n+LOCATIONS\n+(CURRENT)\n+REWARDS\n+ABOUT\n+FRANCHISE OPPORTUNITIES\n+CUSTOMER SERVICE\n+MEINEKE COMING SOON\n+New Locations Coming Soon\n+We\u2019re opening many more shops across the nation and around the world, check out the locations opening soon and get notified when they do!\n+Filter Locations by Province:\n+SHOW ALL\n+  ONTARIO\n+Meineke Hamilton\n+970 Barton Street East\n+Hamilton, ON L8L 3C7\n+See Shop Page\n+CHECK BACK REGULARLY FOR SHOPS OPENING SOON NEAR YOU!\n+Locate a Shop\n+SUBMIT\n+Locate me\n+HAVE QUESTIONS? We Want to Hear Back From You\n+SEND FEEDBACK\n+LOCATIONS\n+COUPONS\n+SERVICES\n+ABOUT\n+Aeroplan\n+Rewards\n+Fleet Services\n+Roadside Assistance\n+Meineke Careers\n+Meineke International\n+Sitemap\n+COMMUNITY\n+Meineke Blog\n+Franchise Opportunities\n+A Driven Brands Company\n+CONNECT WITH MEINEKE!\n+PRIVACY POLICY\n+A FAMILY OF DRIVEN BRANDS'\n",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "built_tests\\Form_cdc6b8d6950e3a02b1ddab69cd6dea12Test",
+    "tests": 1
+}{
+    "event": "testStart",
+    "suite": "built_tests\\Form_cdc6b8d6950e3a02b1ddab69cd6dea12Test",
+    "test": "built_tests\\Form_cdc6b8d6950e3a02b1ddab69cd6dea12Test::testValidFormSubmission"
+}{
+    "event": "test",
+    "suite": "built_tests\\Form_cdc6b8d6950e3a02b1ddab69cd6dea12Test",
+    "test": "built_tests\\Form_cdc6b8d6950e3a02b1ddab69cd6dea12Test::testValidFormSubmission",
+    "status": "error",
+    "time": 9.9447178840637,
+    "trace": [
+        {
+            "file": "\/var\/www\/html\/MEINEKE_GENERATE_TEST_CLASSES\/vendor\/facebook\/webdriver\/lib\/Exception\/WebDriverException.php",
+            "line": 121
+        },
+        {
+            "file": "\/var\/www\/html\/MEINEKE_GENERATE_TEST_CLASSES\/vendor\/facebook\/webdriver\/lib\/Remote\/HttpCommandExecutor.php",
+            "line": 353,
+            "function": "throwException",
+            "class": "Facebook\\WebDriver\\Exception\\WebDriverException",
+            "type": "::"
+        },
+        {
+            "file": "\/var\/www\/html\/MEINEKE_GENERATE_TEST_CLASSES\/vendor\/facebook\/webdriver\/lib\/Remote\/RemoteWebDriver.php",
+            "line": 547,
+            "function": "execute",
+            "class": "Facebook\\WebDriver\\Remote\\HttpCommandExecutor",
+            "type": "->"
+        },
+        {
+            "file": "\/var\/www\/html\/MEINEKE_GENERATE_TEST_CLASSES\/vendor\/facebook\/webdriver\/lib\/Remote\/RemoteWebDriver.php",
+            "line": 302,
+            "function": "execute",
+            "class": "Facebook\\WebDriver\\Remote\\RemoteWebDriver",
+            "type": "->"
+        },
+        {
+            "file": "\/var\/www\/html\/MEINEKE_GENERATE_TEST_CLASSES\/built_tests\/Form_cdc6b8d6950e3a02b1ddab69cd6dea12Test.php",
+            "line": 48,
+            "function": "executeScript",
+            "class": "Facebook\\WebDriver\\Remote\\RemoteWebDriver",
+            "type": "->"
+        },
+        {
+            "file": "\/var\/www\/html\/MEINEKE_GENERATE_TEST_CLASSES\/built_tests\/Form_cdc6b8d6950e3a02b1ddab69cd6dea12Test.php",
+            "line": 56,
+            "function": "fillFormAndSubmit",
+            "class": "built_tests\\Form_cdc6b8d6950e3a02b1ddab69cd6dea12Test",
+            "type": "->"
+        }
+    ],
+    "message": "Facebook\\WebDriver\\Exception\\UnknownServerException: unknown error: Runtime.evaluate threw exception: SyntaxError: Unexpected token -\n  (Session info: chrome=53.0.2785.116)\n  (Driver info: chromedriver=2.23.409687 (c46e862757edc04c06b1bd88724d15a5807b84d1),platform=Linux 4.2.0-42-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 9 milliseconds\nBuild info: version: '3.0.0-beta3', revision: 'c7b525d', time: '2016-09-01 14:57:03 -0700'\nSystem info: host: 'ovidiu-dev-pc', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.2.0-42-generic', java.version: '1.8.0_91'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.23.409687 (c46e862757edc04c06b1bd88724d15a5807b84d1), userDataDir=\/tmp\/.org.chromium.Chromium.TiS7rx}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=53.0.2785.116, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 3d6487c5f1c00aef12838790a865b120\n",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "built_tests\\Form_fa0b7c417ef7e539f2632fde10fc67bdTest",
+    "tests": 1
+}{
+    "event": "testStart",
+    "suite": "built_tests\\Form_fa0b7c417ef7e539f2632fde10fc67bdTest",
+    "test": "built_tests\\Form_fa0b7c417ef7e539f2632fde10fc67bdTest::testValidFormSubmission"
+}{
+    "event": "test",
+    "suite": "built_tests\\Form_fa0b7c417ef7e539f2632fde10fc67bdTest",
+    "test": "built_tests\\Form_fa0b7c417ef7e539f2632fde10fc67bdTest::testValidFormSubmission",
+    "status": "fail",
+    "time": 3.9866049289703,
+    "trace": [
+        {
+            "file": "\/var\/www\/html\/MEINEKE_GENERATE_TEST_CLASSES\/built_tests\/Form_fa0b7c417ef7e539f2632fde10fc67bdTest.php",
+            "line": 55,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::"
+        }
+    ],
+    "message": "Failed asserting that two strings are equal.\n--- Expected\n+++ Actual\n@@ @@\n-'Everything is Good!'\n+'SIGN IN\n+Not Registered?\n+\n+Find\n+SUBMIT\n+Locate me\n+BOOK NOW\n+TODAY\n+09\/21\n+THURSDAY\n+09\/22\n+FRIDAY\n+09\/23\n+SATURDAY\n+09\/24\n+MORE\n+\n+\n+COUPONS\n+SERVICES\n+LOCATIONS\n+(CURRENT)\n+REWARDS\n+ABOUT\n+FRANCHISE OPPORTUNITIES\n+CUSTOMER SERVICE\n+Already have an account? Sign in here\n+NEW MEMBER SIGN UP\n+Sign up for Meineke\u2019s Rewards Program to take advantage of our auto care perks!\n+Keep track of valuable rewards points\n+Redeem points for free maintenance services\n+View and keep track of your vehicle\u2019s service history\n+Save and access your favorite Meineke shop\n+Sign Up with Facebook\n+OR\n+Simply fill in your information below to create an account.\n+\n+We couldn\u2019t find anything matching that phone number or ID.\n+Previous visit? Click Here\n+Please email me exclusive Meineke offers and promotions.\n+I agree to the terms and conditions of services provided by Meineke\n+CREATE ACCOUNT\n+LOCATIONS\n+COUPONS\n+SERVICES\n+ABOUT\n+Aeroplan\n+Rewards\n+Fleet Services\n+Roadside Assistance\n+Meineke Careers\n+Meineke International\n+Sitemap\n+COMMUNITY\n+Meineke Blog\n+Franchise Opportunities\n+A Driven Brands Company\n+CONNECT WITH MEINEKE!\n+PRIVACY POLICY\n+A FAMILY OF DRIVEN BRANDS'\n",
     "output": ""
 }

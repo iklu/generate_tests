@@ -32,18 +32,18 @@
         <!--<testsuite name="forms_tests">-->
             <!--<directory>../tests/library/FormsTesting</directory>-->
         <!--</testsuite>-->
-        <!--<testsuite name="run_tests">-->
-            <!--<directory>../built_tests/</directory>-->
-        <!--</testsuite>-->
+        <testsuite name="run_tests">
+            <directory>../built_tests/</directory>
+        </testsuite>
         <!--<testsuite name="sitemap_tests">-->
             <!--<directory>../tests/library/SitemapTesting</directory>-->
         <!--</testsuite>-->
         <!--<testsuite name="forms_tests">-->
             <!--<directory>../tests/library/FormsTesting</directory>-->
         <!--</testsuite>-->
-        <testsuite name="selenium_tests">
-            <directory>../tests/library/Selenium</directory>
-        </testsuite>
+        <!--<testsuite name="selenium_tests">-->
+            <!--<directory>../tests/library/Selenium</directory>-->
+        <!--</testsuite>-->
         <!--<testsuite name="api_tests">-->
             <!--<directory>../tests/library/ApiTesting</directory>-->
         <!--</testsuite>-->

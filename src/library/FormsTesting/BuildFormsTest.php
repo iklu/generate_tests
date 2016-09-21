@@ -10,6 +10,11 @@ use Memio\Model\Argument;
 use Memio\Model\Contract;
 use Memio\Model\Constant;
 use Memio\Model\FullyQualifiedName;
+use src\library\FormsTesting\Components\FillFormAndSubmit;
+use src\library\FormsTesting\Components\SetUp;
+use src\library\FormsTesting\Components\TearDown;
+use src\library\FormsTesting\Components\TestValidFormSubmission;
+
 
 require_once "./vendor/simple-html-dom/simple-html-dom/simple_html_dom.php";
 
@@ -40,6 +45,7 @@ class BuildFormsTest implements BuildInterface
         // TODO: Implement create() method.
         for($i=0; $i<count($this->urls); $i++) {
 
+
             $html = new \simple_html_dom();
             $html->load_file($this->urls[$i]);
 
@@ -60,34 +66,14 @@ class BuildFormsTest implements BuildInterface
                         $file->addFullyQualifiedName(new FullyQualifiedName('Facebook\WebDriver\Remote\RemoteWebDriver'));
                         $file->addFullyQualifiedName(new FullyQualifiedName('Facebook\WebDriver\Support\Events\EventFiringWebDriver'));
                         $file->addFullyQualifiedName(new FullyQualifiedName('Facebook\WebDriver\WebDriverBy'));
-           
+                        $file->addFullyQualifiedName(new FullyQualifiedName('PHPUnit_Framework_TestCase'));
+
 
 
                         $class = Object::make('built_tests\Form_'.$encode.'Test');
                         $class->extend(new Object('\PHPUnit_Framework_TestCase'));
 
-                        /** @var  $bodyString0 */
-                        $bodyString0 = '';
 
-                        $bodyString0 .= '$this->setBrowser("chrome");'.PHP_EOL;
-                        $bodyString0 .= '$this->setBrowserUrl("'.$this->urls[$i].'");'.PHP_EOL;
-
-                        $class->addMethod(
-                            Method::make('setUp')
-                                ->setBody(
-                                    $bodyString0
-                                )
-                        );
-
-
-                        /** @var  $bodyString */
-                        $bodyString = '$class = "'.$form->class.'";'.PHP_EOL;
-
-                        $bodyString .= '$id = "'.$form->id.'";'.PHP_EOL.PHP_EOL;
-                        $bodyString .= '$page = "'.$this->urls[$i].'";'.PHP_EOL.PHP_EOL;
-
-                        $bodyString .= '$action = "'.$this->host.$form->action.'";'.PHP_EOL;
-                        $bodyString .= '$client = new Client();'.PHP_EOL;
 
                         // set error level
                         $internalErrors = libxml_use_internal_errors(true);
@@ -100,68 +86,67 @@ class BuildFormsTest implements BuildInterface
 
                         $inputs = $document->getElementsByTagName("input");
 
+                        $data['inputs'] = array();
+                        $data['button'] = '';
                         foreach ($inputs as $input) {
                             foreach($this->dictionary as $key => $value) {
                                 similar_text($input->getAttribute("name"), $key, $percent);
                                 if($percent > 70) {
-                                    $data[$input->getAttribute("name")] = $value;
+                                    $data['inputs'][$input->getAttribute("name")] = $value;
                                 } elseif (strpos(strtolower($input->getAttribute("name")), strtolower($key))) {
-                                    $data[$input->getAttribute("name")] = $value;
+                                    $data['inputs'][$input->getAttribute("name")] = $value;
                                 }
                             }
                         }
 
-                        $bodyString .= '$data = array();'.PHP_EOL;
 
                         $nodes = $document->getElementsByTagName("button");
                         foreach ($nodes as $node) {
-                            $buttonText =  $node->nodeValue;
-                            exit;
+                            $data['button'] =  $node->nodeValue;
                         }
 
-                        //write post params
-                        foreach($data as $key=>$value) {
-                            $bodyString .= '$data["'.$key.'"]="'.$value.'";'.PHP_EOL;
-                        }
+                        $data['action'] =  $form->action;
+                        $data['page_url'] = $this->urls[$i];
 
-                        //json encode post params
-                        $bodyString .='$contentJson = json_encode($data);'.PHP_EOL;
 
-                        //write request
-                        $bodyString .= '$crawler = $client->request("POST", "'.$this->host.$form->action.'", [], [], ["HTTP_CONTENT_TYPE" => "application/json"], $contentJson);'.PHP_EOL;
+                        $setUp = SetUp::create();
+                        $tearDown = TearDown::create();
+                        $fillFormAndSubmit = FillFormAndSubmit::create($data);
+                        $testValidFormSubmission = TestValidFormSubmission::create();
+
+                        $class->addProperty(
+                            new Property('webDriver')
+                        );
 
                         $class->addMethod(
-                            Method::make('testForm')
+                            Method::make('setUp')
                                 ->setBody(
-                                    $bodyString
+                                    $setUp
                                 )
                         );
 
-                        /** @var  $bodyString1 */
-                        $bodyString1 = "";
-
-                        //form page
-                        $bodyString1 .= '$this->url("'.$this->urls[$i].'");'.PHP_EOL.PHP_EOL;
-
-                        //write form input names
-                        foreach($data as $key=>$value) {
-                            $bodyString1 .= '$data["'.$key.'"]=$this->byName("'.$key.'");'.PHP_EOL;
-                        }
-
                         $class->addMethod(
-                            Method::make('testFormExists')
+                            Method::make('tearDown')
                                 ->setBody(
-                                    $bodyString1
+                                    $tearDown
                                 )
                         );
 
-                        /** @var  $bodyString2 */
-                        $bodyString2 = "";
+                        $class->addMethod(
+                            Method::make('fillFormAndSubmit')
+                                ->setBody(
+                                    $fillFormAndSubmit
+                                )
+                        );
 
-                        //form page
-                        $bodyString2 .= '$this->url("'.$this->urls[$i].'");'.PHP_EOL.PHP_EOL;
-                        $bodyString2 .= '$action = $this->byCssSelector( "form" )->attribute( "action" );';
-                        $bodyString1 .= '$this->byId("'.$this->urls[$i].'");'.PHP_EOL.PHP_EOL;
+                        $class->addMethod(
+                            Method::make('testValidFormSubmission')
+                                ->setBody(
+                                    $testValidFormSubmission
+                                )
+                        );
+
+
 
                         $file->setStructure($class);
 
