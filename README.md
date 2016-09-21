@@ -11,3 +11,5 @@ Test Automation
         * tests all links available in site-map and asserts status 200
 
 - Module Based Testing
+
+SELENIUM https://www.phpro.org/tutorials/Automated-Testing-With-Selenium2-And-PHPUnit.html

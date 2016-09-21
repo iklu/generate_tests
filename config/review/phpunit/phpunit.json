@@ -1,13 +1,30 @@
 {
     "event": "suiteStart",
-    "suite": "forms_tests",
+    "suite": "selenium_tests",
     "tests": 1
 }{
     "event": "suiteStart",
-    "suite": "testing\\library\\FormsTesting\\FormsTest",
+    "suite": "tests\\library\\Selenium\\WebDriverTest",
     "tests": 1
 }{
     "event": "testStart",
-    "suite": "testing\\library\\FormsTesting\\FormsTest",
-    "test": "testing\\library\\FormsTesting\\FormsTest::testForms"
+    "suite": "tests\\library\\Selenium\\WebDriverTest",
+    "test": "tests\\library\\Selenium\\WebDriverTest::testValidFormSubmission"
+}{
+    "event": "test",
+    "suite": "tests\\library\\Selenium\\WebDriverTest",
+    "test": "tests\\library\\Selenium\\WebDriverTest::testValidFormSubmission",
+    "status": "fail",
+    "time": 4.4567677974701,
+    "trace": [
+        {
+            "file": "\/var\/www\/html\/MEINEKE_GENERATE_TEST_CLASSES\/tests\/library\/Selenium\/WebDriverTest.php",
+            "line": 83,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::"
+        }
+    ],
+    "message": "Failed asserting that two strings are equal.\n--- Expected\n+++ Actual\n@@ @@\n-'Everything is Good!'\n+'SIGN IN\n+Not Registered?\n+\n+Find\n+SUBMIT\n+Locate me\n+BOOK NOW\n+TODAY\n+09\/21\n+THURSDAY\n+09\/22\n+FRIDAY\n+09\/23\n+SATURDAY\n+09\/24\n+MORE\n+\n+\n+COUPONS\n+SERVICES\n+LOCATIONS\n+(CURRENT)\n+REWARDS\n+ABOUT\n+FRANCHISE OPPORTUNITIES\n+CUSTOMER SERVICE\n+Already have an account? Sign in here\n+NEW MEMBER SIGN UP\n+Sign up for Meineke\u2019s Rewards Program to take advantage of our auto care perks!\n+Keep track of valuable rewards points\n+Redeem points for free maintenance services\n+View and keep track of your vehicle\u2019s service history\n+Save and access your favorite Meineke shop\n+Sign Up with Facebook\n+OR\n+Simply fill in your information below to create an account.\n+\n+Password does not match the confirm password\n+Previous visit? Click Here\n+Please email me exclusive Meineke offers and promotions.\n+I agree to the terms and conditions of services provided by Meineke\n+CREATE ACCOUNT\n+LOCATIONS\n+COUPONS\n+SERVICES\n+ABOUT\n+Aeroplan\n+Rewards\n+Fleet Services\n+Roadside Assistance\n+Meineke Careers\n+Meineke International\n+Sitemap\n+COMMUNITY\n+Meineke Blog\n+Franchise Opportunities\n+A Driven Brands Company\n+CONNECT WITH MEINEKE!\n+PRIVACY POLICY\n+A FAMILY OF DRIVEN BRANDS'\n",
+    "output": ""
 }

@@ -55,13 +55,38 @@ class BuildFormsTest implements BuildInterface
                         $file = File::make('src/Vendor/Project/MyService.php');
 
                         $file->addFullyQualifiedName(new FullyQualifiedName('Goutte\Client'));
-                        $file->addFullyQualifiedName(new FullyQualifiedName('\PHPUnit_Framework_TestCase'));
+                        $file->addFullyQualifiedName(new FullyQualifiedName('Facebook\WebDriver\JavaScriptExecutor'));
+                        $file->addFullyQualifiedName(new FullyQualifiedName('Facebook\WebDriver\Remote\DesiredCapabilities'));
+                        $file->addFullyQualifiedName(new FullyQualifiedName('Facebook\WebDriver\Remote\RemoteWebDriver'));
+                        $file->addFullyQualifiedName(new FullyQualifiedName('Facebook\WebDriver\Support\Events\EventFiringWebDriver'));
+                        $file->addFullyQualifiedName(new FullyQualifiedName('Facebook\WebDriver\WebDriverBy'));
+           
 
 
                         $class = Object::make('built_tests\Form_'.$encode.'Test');
-                        $class->extend(new Object('PHPUnit_Framework_TestCase'));
+                        $class->extend(new Object('\PHPUnit_Framework_TestCase'));
 
-                        $bodyString = '$action = "'.$this->host.$form->action.'";'.PHP_EOL;
+                        /** @var  $bodyString0 */
+                        $bodyString0 = '';
+
+                        $bodyString0 .= '$this->setBrowser("chrome");'.PHP_EOL;
+                        $bodyString0 .= '$this->setBrowserUrl("'.$this->urls[$i].'");'.PHP_EOL;
+
+                        $class->addMethod(
+                            Method::make('setUp')
+                                ->setBody(
+                                    $bodyString0
+                                )
+                        );
+
+
+                        /** @var  $bodyString */
+                        $bodyString = '$class = "'.$form->class.'";'.PHP_EOL;
+
+                        $bodyString .= '$id = "'.$form->id.'";'.PHP_EOL.PHP_EOL;
+                        $bodyString .= '$page = "'.$this->urls[$i].'";'.PHP_EOL.PHP_EOL;
+
+                        $bodyString .= '$action = "'.$this->host.$form->action.'";'.PHP_EOL;
                         $bodyString .= '$client = new Client();'.PHP_EOL;
 
                         // set error level
@@ -76,13 +101,22 @@ class BuildFormsTest implements BuildInterface
                         $inputs = $document->getElementsByTagName("input");
 
                         foreach ($inputs as $input) {
-
                             foreach($this->dictionary as $key => $value) {
                                 similar_text($input->getAttribute("name"), $key, $percent);
                                 if($percent > 70) {
                                     $data[$input->getAttribute("name")] = $value;
+                                } elseif (strpos(strtolower($input->getAttribute("name")), strtolower($key))) {
+                                    $data[$input->getAttribute("name")] = $value;
                                 }
                             }
+                        }
+
+                        $bodyString .= '$data = array();'.PHP_EOL;
+
+                        $nodes = $document->getElementsByTagName("button");
+                        foreach ($nodes as $node) {
+                            $buttonText =  $node->nodeValue;
+                            exit;
                         }
 
                         //write post params
@@ -102,6 +136,32 @@ class BuildFormsTest implements BuildInterface
                                     $bodyString
                                 )
                         );
+
+                        /** @var  $bodyString1 */
+                        $bodyString1 = "";
+
+                        //form page
+                        $bodyString1 .= '$this->url("'.$this->urls[$i].'");'.PHP_EOL.PHP_EOL;
+
+                        //write form input names
+                        foreach($data as $key=>$value) {
+                            $bodyString1 .= '$data["'.$key.'"]=$this->byName("'.$key.'");'.PHP_EOL;
+                        }
+
+                        $class->addMethod(
+                            Method::make('testFormExists')
+                                ->setBody(
+                                    $bodyString1
+                                )
+                        );
+
+                        /** @var  $bodyString2 */
+                        $bodyString2 = "";
+
+                        //form page
+                        $bodyString2 .= '$this->url("'.$this->urls[$i].'");'.PHP_EOL.PHP_EOL;
+                        $bodyString2 .= '$action = $this->byCssSelector( "form" )->attribute( "action" );';
+                        $bodyString1 .= '$this->byId("'.$this->urls[$i].'");'.PHP_EOL.PHP_EOL;
 
                         $file->setStructure($class);
 

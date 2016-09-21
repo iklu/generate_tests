@@ -1,1 +1,10 @@
 TAP version 13
+not ok 1 - Failure: tests\library\Selenium\WebDriverTest::testValidFormSubmission
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "SIGN IN\nNot Registered?\n\nFind\nSUBMIT\nLocate me\nBOOK NOW\nTODAY\n09/21\nTHURSDAY\n09/22\nFRIDAY\n09/23\nSATURDAY\n09/24\nMORE\n\n\nCOUPONS\nSERVICES\nLOCATIONS\n(CURRENT)\nREWARDS\nABOUT\nFRANCHISE OPPORTUNITIES\nCUSTOMER SERVICE\nAlready have an account? Sign in here\nNEW MEMBER SIGN UP\nSign up for Meineke’s Rewards Program to take advantage of our auto care perks!\nKeep track of valuable rewards points\nRedeem points for free maintenance services\nView and keep track of your vehicle’s service history\nSave and access your favorite Meineke shop\nSign Up with Facebook\nOR\nSimply fill in your information below to create an account.\n\nPassword does not match the confirm password\nPrevious visit? Click Here\nPlease email me exclusive Meineke offers and promotions.\nI agree to the terms and conditions of services provided by Meineke\nCREATE ACCOUNT\nLOCATIONS\nCOUPONS\nSERVICES\nABOUT\nAeroplan\nRewards\nFleet Services\nRoadside Assistance\nMeineke Careers\nMeineke International\nSitemap\nCOMMUNITY\nMeineke Blog\nFranchise Opportunities\nA Driven Brands Company\nCONNECT WITH MEINEKE!\nPRIVACY POLICY\nA FAMILY OF DRIVEN BRANDS"
+      expected: 'Everything is Good!'
+  ...
+1..1

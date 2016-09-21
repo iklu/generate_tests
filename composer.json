@@ -4,7 +4,8 @@
         "pastuhov/php-exec-command": "^1.1",
         "MrRio/shellwrap": "^0.4.1",
         "fabpot/goutte": "^3.1",
-        "simple-html-dom/simple-html-dom": "*"
+        "simple-html-dom/simple-html-dom": "*",
+        "facebook/webdriver": "^1.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.5",

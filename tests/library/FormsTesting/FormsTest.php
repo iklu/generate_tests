@@ -21,11 +21,12 @@ class FormsTest extends \PHPUnit_Framework_TestCase
         $host = "http://dev.meineke-redesign.beta-directory.com";
 
         $dictionary = array(
-            'email'=> 'dragoi__test__ovidiu2011@yahoo.com',
+            'email'=> 'dragoi__tes__ovidiu2011@yahoo.com',
             'firstname'=>'ovidiu',
             'lastname'=>'dragoi',
             'storeid'=> '4',
             'location'=> 'houston, TX',
+            'center'=>'center',
             'state'=>'TX',
             'city'=>'houston',
             'phone'=> '0749620628',
@@ -35,7 +36,17 @@ class FormsTest extends \PHPUnit_Framework_TestCase
             'day' => 5,
             'month'=> 5,
             'year'=>2017,
-            'comments'=> 'Testing, please ignore.Thank you!'
+            'comments'=> 'Testing, please ignore.Thank you!',
+            'zipcode'=>12356,
+            'rating'=>5,
+            'dictionary'=>'brakes',
+            'search'=>'houston',
+            'password'=>'123456',
+            'job'=>2,
+            'carrier'=>'txt.att.net',
+            'mobile'=>'0749626246',
+            'image'=>'http://d2r3n4kkn82mu7.cloudfront.net/resources/uploads/images/coupons/NewC01-lg.png',
+            'barcode'=>'http://d2r3n4kkn82mu7.cloudfront.net/resources/uploads/images/coupons/barcode_30082016.png',
         );
         
         $build = new BuildFormsTest($urls ,$host, $dictionary);
