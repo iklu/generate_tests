@@ -33,15 +33,11 @@ class FillFormAndSubmit
             }'.PHP_EOL;
         }
 
-
-
-
         $string .= '
-        $this->webDriver->executeScript("        
-                '.$jsInput.'
-                '.$jsForeachInput.'
-
-    
+        $this->webDriver->executeScript("  
+        
+        '.$jsInput.'  
+        '.$jsForeachInput.'    
         
         var button = document.getElementsByTagName(\'button\');
         for (var i = 0; i < button.length; i++) {

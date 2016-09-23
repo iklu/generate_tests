@@ -16,7 +16,7 @@ class FormsTest extends \PHPUnit_Framework_TestCase
 {
     public function testForms(){
 
-        $sitemap = new XmlParser('http://meineke.ca/page-sitemap.xml');
+        $sitemap = new XmlParser('http://dev.meineke-redesign.beta-directory.com/page-sitemap.xml');
         $urls = $sitemap->parse();
         
         
@@ -49,6 +49,15 @@ class FormsTest extends \PHPUnit_Framework_TestCase
             'mobile'=>'0749626246',
             'image'=>'http://d2r3n4kkn82mu7.cloudfront.net/resources/uploads/images/coupons/NewC01-lg.png',
             'barcode'=>'http://d2r3n4kkn82mu7.cloudfront.net/resources/uploads/images/coupons/barcode_30082016.png',
+            'buildingSize' => '500',
+            'buildingDepth' => '500',
+            'salePrice' => '500',
+            'landSizeSqFt' => '500',
+            'zonedAuto'=> '1',
+            'buildingLength' => 1000,
+            'landSize' => 300,
+            'leaseRate' => 'one',
+            'propertyTaxes'=>'multiple',
         );
         
         $build = new BuildFormsTest($urls ,$host, $dictionary);

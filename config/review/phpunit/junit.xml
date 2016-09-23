@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="run_tests" tests="11" assertions="10" failures="10" errors="1" time="46.961397">
-    <testsuite name="built_tests\Form_149c104a80fe988f4785b6b02bf41090Test" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_149c104a80fe988f4785b6b02bf41090Test.php" tests="1" assertions="1" failures="1" errors="0" time="3.000050">
-      <testcase name="testValidFormSubmission" class="built_tests\Form_149c104a80fe988f4785b6b02bf41090Test" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_149c104a80fe988f4785b6b02bf41090Test.php" line="74" assertions="1" time="3.000050">
+  <testsuite name="run_tests" tests="10" assertions="9" failures="9" errors="1" time="59.315555">
+    <testsuite name="built_tests\Form_149c104a80fe988f4785b6b02bf41090Test" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_149c104a80fe988f4785b6b02bf41090Test.php" tests="1" assertions="1" failures="1" errors="0" time="4.763121">
+      <testcase name="testValidFormSubmission" class="built_tests\Form_149c104a80fe988f4785b6b02bf41090Test" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_149c104a80fe988f4785b6b02bf41090Test.php" line="78" assertions="1" time="4.763121">
         <failure type="PHPUnit_Framework_ExpectationFailedException">built_tests\Form_149c104a80fe988f4785b6b02bf41090Test::testValidFormSubmission
 Failed asserting that two strings are equal.
 --- Expected
@@ -25,8 +25,8 @@ Failed asserting that two strings are equal.
 +SATURDAY
 +09/24
 +MORE
-+
-+
++Call Now
++1-800-MEINEKE
 +COUPONS
 +SERVICES
 +LOCATIONS
@@ -39,6 +39,8 @@ Failed asserting that two strings are equal.
 +Fleet Services
 +What Makes Meineke the Smart Choice for Your Fleet?
 +Meineke has put together an entire package of repair and preventative maintenance services, specializing in quick, timely repairs to minimize down time.
++Finance your fleet with exclusive expense tracking, solutions for overspending and even rebates on select fuel purchases.
++MEINEKE FLEET SOLUTIONS MASTERCARD
 +Fleet Benefits
 +Convenient Hours
 +Extended hours available in many cases.
@@ -61,19 +63,23 @@ Failed asserting that two strings are equal.
 +Online Scheduling
 +Easy, quick online scheduling.
 +Interested in becoming a fleet customer?
-+Use our contact form and tell us about your fleet service needs. Find out where you can bring your fleet at one of our locations here.
++Use our contact form and tell us about your fleet service needs. Find out where you can bring your fleet at one of our 900+ shop locations here.
 +I Want To Provide More Detailed Info About My Fleet.
 +  SUBMIT
 +Existing fleet account holder?
 +Email the Meineke fleet accounts department with your questions regarding invoicing, service pricing, business with smaller fleets, or franchise questions.
++CURRENT PARTNERSHIPS
 +LOCATIONS
++Featured
++Coming Soon
 +COUPONS
 +SERVICES
 +ABOUT
-+Aeroplan
++Meineke Credit Card
 +Rewards
 +Fleet Services
 +Roadside Assistance
++Dictionary
 +Meineke Careers
 +Meineke International
 +Sitemap
@@ -81,16 +87,19 @@ Failed asserting that two strings are equal.
 +Meineke Blog
 +Franchise Opportunities
 +A Driven Brands Company
++Privacy Policy
 +CONNECT WITH MEINEKE!
-+PRIVACY POLICY
++Facebook Twitter Youtube Google Plus
++DOWNLOAD THE MEINEKE APP
++EXPLORE NOW
 +A FAMILY OF DRIVEN BRANDS'
 
-/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_149c104a80fe988f4785b6b02bf41090Test.php:79
+/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_149c104a80fe988f4785b6b02bf41090Test.php:83
 </failure>
       </testcase>
     </testsuite>
-    <testsuite name="built_tests\Form_193fdc35e4fc3e598666a93507676f32Test" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_193fdc35e4fc3e598666a93507676f32Test.php" tests="1" assertions="1" failures="1" errors="0" time="4.101041">
-      <testcase name="testValidFormSubmission" class="built_tests\Form_193fdc35e4fc3e598666a93507676f32Test" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_193fdc35e4fc3e598666a93507676f32Test.php" line="86" assertions="1" time="4.101041">
+    <testsuite name="built_tests\Form_193fdc35e4fc3e598666a93507676f32Test" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_193fdc35e4fc3e598666a93507676f32Test.php" tests="1" assertions="1" failures="1" errors="0" time="5.265064">
+      <testcase name="testValidFormSubmission" class="built_tests\Form_193fdc35e4fc3e598666a93507676f32Test" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_193fdc35e4fc3e598666a93507676f32Test.php" line="86" assertions="1" time="5.265064">
         <failure type="PHPUnit_Framework_ExpectationFailedException">built_tests\Form_193fdc35e4fc3e598666a93507676f32Test::testValidFormSubmission
 Failed asserting that two strings are equal.
 --- Expected
@@ -113,8 +122,8 @@ Failed asserting that two strings are equal.
 +SATURDAY
 +09/24
 +MORE
-+
-+
++Call Now
++1-800-MEINEKE
 +COUPONS
 +SERVICES
 +LOCATIONS
@@ -125,32 +134,91 @@ Failed asserting that two strings are equal.
 +CUSTOMER SERVICE
 +MEINEKE ABOUT REAL ESTATE
 +Automotive Repair Real Estate Wanted
-+Do you think you know the perfect spot for the next Meineke? Meineke Car Care Centres, Inc. is expanding throughout North America, and we are always looking for prospective locations. We will consider existing auto repair shops, buildings for conversions, multi-tenant sites and build-to-suit-sites. All sites must be zoned for automotive repair. Below is a list of some of the Meineke Car Care Centre site criteria.
++Do you think you know the perfect spot for the next Meineke? Meineke Car Care Centers, Inc. is expanding throughout North America, and we are always looking for prospective locations. We will consider existing auto repair shops, buildings for conversions, multi-tenant sites and build-to-suit-sites. All sites must be zoned for automotive repair. Below is a list of some of the Meineke Car Care Center site criteria.
 +Good visibility and high traffic count (+20,000 AADT)
 +Parking available for 15 cars
-+Shop sizes approximately 900 - 1500 meters
-+Ceiling height of 4 meters clear
++Shop sizes approximately 3,000-5,000 sq ft
++Ceiling height of 14 feet clear
 +Facility able to accommodate 5 or more bays with adequate storage and work areas
 +If you think you know where the next Meineke franchise should be, please contact us by filling out the form below.
 +Location information
-+Location state is required.
-+Province *
-+  Country *
-+  DATE AVAILABLE
++State *
++AK, Alaska
++AL, Alabama
++AR, Arkansas
++AZ, Arizona
++CA, California
++CO, Colorado
++CT, Connecticut
++DE, Delaware
++FL, Florida
++GA, Georgia
++IA, Iowa
++ID, Idaho
++IL, Illinois
++IN, Indiana
++KS, Kansas
++KY, Kentucky
++LA, Louisiana
++MA, Massachusetts
++MD, Maryland
++ME, Maine
++MI, Michigan
++MN, Minnesota
++MO, Missouri
++MS, Mississippi
++MT, Montana
++NC, North Carolina
++ND, North Dakota
++NE, Nebraska
++NH, New Hampshire
++NJ, New Jersey
++NM, New Mexico
++NV, Nevada
++NY, New York
++OH, Ohio
++OK, Oklahoma
++OR, Oregon
++PA, Pennsylvania
++RI, Rhode Island
++SC, South Carolina
++SD, South Dakota
++TN, Tennessee
++TX, Texas
++UT, Utah
++VA, Virginia
++WA, Washington
++WI, Wisconsin
++WV, West Virginia
++WY, Wyoming
++State *
++  Please select an option
++DATE AVAILABLE
 +/
 +/
 +Deal type
++Lease Building
++Sale Building
++Sale Land
++Deal type
 +  Zoned for auto *
-+  Contact information
++Yes
++No
++Zoned for auto *
++  Please select an option
++Contact information
 +SUBMIT
 +LOCATIONS
++Featured
++Coming Soon
 +COUPONS
 +SERVICES
 +ABOUT
-+Aeroplan
++Meineke Credit Card
 +Rewards
 +Fleet Services
 +Roadside Assistance
++Dictionary
 +Meineke Careers
 +Meineke International
 +Sitemap
@@ -158,87 +226,19 @@ Failed asserting that two strings are equal.
 +Meineke Blog
 +Franchise Opportunities
 +A Driven Brands Company
++Privacy Policy
 +CONNECT WITH MEINEKE!
-+PRIVACY POLICY
++Facebook Twitter Youtube Google Plus
++DOWNLOAD THE MEINEKE APP
++EXPLORE NOW
 +A FAMILY OF DRIVEN BRANDS'
 
 /var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_193fdc35e4fc3e598666a93507676f32Test.php:91
 </failure>
       </testcase>
     </testsuite>
-    <testsuite name="built_tests\Form_59ce1c48d625127a027934000b517e98Test" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_59ce1c48d625127a027934000b517e98Test.php" tests="1" assertions="1" failures="1" errors="0" time="2.522017">
-      <testcase name="testValidFormSubmission" class="built_tests\Form_59ce1c48d625127a027934000b517e98Test" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_59ce1c48d625127a027934000b517e98Test.php" line="78" assertions="1" time="2.522017">
-        <failure type="PHPUnit_Framework_ExpectationFailedException">built_tests\Form_59ce1c48d625127a027934000b517e98Test::testValidFormSubmission
-Failed asserting that two strings are equal.
---- Expected
-+++ Actual
-@@ @@
--'Everything is Good!'
-+'SIGN IN
-+Not Registered?
-+
-+Find
-+SUBMIT
-+Locate me
-+BOOK NOW
-+TODAY
-+09/21
-+THURSDAY
-+09/22
-+FRIDAY
-+09/23
-+SATURDAY
-+09/24
-+MORE
-+
-+
-+COUPONS
-+SERVICES
-+LOCATIONS
-+(CURRENT)
-+REWARDS
-+ABOUT
-+FRANCHISE OPPORTUNITIES
-+CUSTOMER SERVICE
-+MEINEKE CAREERS GENERAL SERVICE/OTHER
-+General Service/Other
-+Looking to get your feet wet in a quality automotive car care centre? From administrative to technical tasks, each and every Meineke location has a variety of jobs that need to be performed in order to support day-to-day operations. We also offer training and learning opportunities in case you’d like to learn more about automotive aftercare. Whether you want to get your hands dirty or interact with customers every day, Meineke has a place for you.
-+FROM OUR EMPLOYEES
-+I have a very hectic family schedule and when I came to work at Meineke, they were nothing but accommodating and were happy to work around my crazy schedule.
-+- Scott S., Manager
-+APPLICATION
-+FILTER BY PROVINCE*
-+FILTER BY CITY*
-+FILTER BY CENTRE
-+General Service/Other
-+  Attach Resume*
-+*Only PDF files are supported.
-+  SUBMIT
-+LOCATIONS
-+COUPONS
-+SERVICES
-+ABOUT
-+Aeroplan
-+Rewards
-+Fleet Services
-+Roadside Assistance
-+Meineke Careers
-+Meineke International
-+Sitemap
-+COMMUNITY
-+Meineke Blog
-+Franchise Opportunities
-+A Driven Brands Company
-+CONNECT WITH MEINEKE!
-+PRIVACY POLICY
-+A FAMILY OF DRIVEN BRANDS'
-
-/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_59ce1c48d625127a027934000b517e98Test.php:83
-</failure>
-      </testcase>
-    </testsuite>
-    <testsuite name="built_tests\Form_7644365387afdc284b491156e1113467Test" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_7644365387afdc284b491156e1113467Test.php" tests="1" assertions="1" failures="1" errors="0" time="6.670991">
-      <testcase name="testValidFormSubmission" class="built_tests\Form_7644365387afdc284b491156e1113467Test" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_7644365387afdc284b491156e1113467Test.php" line="78" assertions="1" time="6.670991">
+    <testsuite name="built_tests\Form_7644365387afdc284b491156e1113467Test" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_7644365387afdc284b491156e1113467Test.php" tests="1" assertions="1" failures="1" errors="0" time="6.122054">
+      <testcase name="testValidFormSubmission" class="built_tests\Form_7644365387afdc284b491156e1113467Test" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_7644365387afdc284b491156e1113467Test.php" line="74" assertions="1" time="6.122054">
         <failure type="PHPUnit_Framework_ExpectationFailedException">built_tests\Form_7644365387afdc284b491156e1113467Test::testValidFormSubmission
 Failed asserting that two strings are equal.
 --- Expected
@@ -261,8 +261,8 @@ Failed asserting that two strings are equal.
 +SATURDAY
 +09/24
 +MORE
-+
-+
++Call Now
++1-800-MEINEKE
 +COUPONS
 +SERVICES
 +LOCATIONS
@@ -271,17 +271,30 @@ Failed asserting that two strings are equal.
 +ABOUT
 +FRANCHISE OPPORTUNITIES
 +CUSTOMER SERVICE
-+Account Confirmation
-+Please check your email in order to confirm your account.
-+RESEND ACTIVATION EMAIL
++Already have an account? Sign in here
++NEW ACCOUNT REGISTRATION
++Register for your Meineke Rewards Online Account Today!
++Keep track of valuable rewards points
++View and keep track of your vehicle’s service history
++Save and access your favorite Meineke shop
++Simply fill in your information below to register your account.
++
++A user with this email address already exists.
++Member Locator
++Please email me exclusive Meineke offers and promotions.
++I agree to the terms and conditions of services provided by Meineke
++REGISTER ACCOUNT
 +LOCATIONS
++Featured
++Coming Soon
 +COUPONS
 +SERVICES
 +ABOUT
-+Aeroplan
++Meineke Credit Card
 +Rewards
 +Fleet Services
 +Roadside Assistance
++Dictionary
 +Meineke Careers
 +Meineke International
 +Sitemap
@@ -289,16 +302,19 @@ Failed asserting that two strings are equal.
 +Meineke Blog
 +Franchise Opportunities
 +A Driven Brands Company
++Privacy Policy
 +CONNECT WITH MEINEKE!
-+PRIVACY POLICY
++Facebook Twitter Youtube Google Plus
++DOWNLOAD THE MEINEKE APP
++EXPLORE NOW
 +A FAMILY OF DRIVEN BRANDS'
 
-/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_7644365387afdc284b491156e1113467Test.php:83
+/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_7644365387afdc284b491156e1113467Test.php:79
 </failure>
       </testcase>
     </testsuite>
-    <testsuite name="built_tests\Form_7be52c6a8c9e0d5ac04754e92d1d31c0Test" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_7be52c6a8c9e0d5ac04754e92d1d31c0Test.php" tests="1" assertions="1" failures="1" errors="0" time="3.601920">
-      <testcase name="testValidFormSubmission" class="built_tests\Form_7be52c6a8c9e0d5ac04754e92d1d31c0Test" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_7be52c6a8c9e0d5ac04754e92d1d31c0Test.php" line="50" assertions="1" time="3.601920">
+    <testsuite name="built_tests\Form_7be52c6a8c9e0d5ac04754e92d1d31c0Test" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_7be52c6a8c9e0d5ac04754e92d1d31c0Test.php" tests="1" assertions="1" failures="1" errors="0" time="4.877969">
+      <testcase name="testValidFormSubmission" class="built_tests\Form_7be52c6a8c9e0d5ac04754e92d1d31c0Test" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_7be52c6a8c9e0d5ac04754e92d1d31c0Test.php" line="50" assertions="1" time="4.877969">
         <failure type="PHPUnit_Framework_ExpectationFailedException">built_tests\Form_7be52c6a8c9e0d5ac04754e92d1d31c0Test::testValidFormSubmission
 Failed asserting that two strings are equal.
 --- Expected
@@ -321,8 +337,8 @@ Failed asserting that two strings are equal.
 +SATURDAY
 +09/24
 +MORE
-+
-+
++Call Now
++1-800-MEINEKE
 +COUPONS
 +SERVICES
 +LOCATIONS
@@ -332,21 +348,77 @@ Failed asserting that two strings are equal.
 +FRANCHISE OPPORTUNITIES
 +CUSTOMER SERVICE
 +MEINEKE FEATURED SHOPS
-+Featured Meineke Centres
-+Since our first location opened in Houston, Texas in 1972, we've opened hundreds of centres across the nation. Join us in celebrating our grand openings, re-openings and more!
-+Filter Locations by Province:
-+SHOW ALL
-+  No store available.
++Featured Meineke Centers
++Since our first location opened in Houston, Texas in 1972, we've opened hundreds of centers across the nation. Join us in celebrating our grand openings, re-openings and more!
++Filter Locations by State:
++,
++  NEW JERSEY
++GRAND OPENING
++Meineke Roselle
++495 St. George Ave.
++Roselle, NJ 07203
++Phone: (908) 525-3434
++See Shop Page
++MAP
++CONNECTICUT
++GRAND OPENING
++Meineke Avon
++213 W Main St
++Avon, CT 06001
++Phone: (860) 404-5701
++See Shop Page
++MAP
++CALIFORNIA
++GRAND OPENING
++Meineke Gold River
++2259 Sunrise Blvd
++Gold River, CA 95670-4341
++Phone: (916) 382-4092
++See Shop Page
++MAP
++GRAND OPENING
++Meineke Bayamon
++Santa Rosa Shopping Mall
++Bayamon, PR 00959
++Phone: (787) 338-7868
++See Shop Page
++MAP
++GRAND OPENING
++Meineke Guaynabo
++Los Jardines Shopping Center
++Guaynabo, PR 00969
++Phone: (787) 783-7868
++See Shop Page
++MAP
++KENTUCKY
++GRAND OPENING
++Meineke Elizabethtown
++1400 N. Dixie Hwy.
++Elizabethtown, KY 42701
++Phone: (270) 737-1160
++See Shop Page
++MAP
++FLORIDA
++GRAND OPENING
++Meineke Hialeah Gardens
++7878-B NW 103rd Street
++Hialeah Gardens, FL 33016
++Phone: (786) 542-8758
++See Shop Page
++MAP
 +HAVE QUESTIONS? We Want to Hear Back From You
 +SEND FEEDBACK
 +LOCATIONS
++Featured
++Coming Soon
 +COUPONS
 +SERVICES
 +ABOUT
-+Aeroplan
++Meineke Credit Card
 +Rewards
 +Fleet Services
 +Roadside Assistance
++Dictionary
 +Meineke Careers
 +Meineke International
 +Sitemap
@@ -354,16 +426,19 @@ Failed asserting that two strings are equal.
 +Meineke Blog
 +Franchise Opportunities
 +A Driven Brands Company
++Privacy Policy
 +CONNECT WITH MEINEKE!
-+PRIVACY POLICY
++Facebook Twitter Youtube Google Plus
++DOWNLOAD THE MEINEKE APP
++EXPLORE NOW
 +A FAMILY OF DRIVEN BRANDS'
 
 /var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_7be52c6a8c9e0d5ac04754e92d1d31c0Test.php:55
 </failure>
       </testcase>
     </testsuite>
-    <testsuite name="built_tests\Form_9687ca0bb48bef602ebc08cb9886f9bcTest" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_9687ca0bb48bef602ebc08cb9886f9bcTest.php" tests="1" assertions="1" failures="1" errors="0" time="2.365870">
-      <testcase name="testValidFormSubmission" class="built_tests\Form_9687ca0bb48bef602ebc08cb9886f9bcTest" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_9687ca0bb48bef602ebc08cb9886f9bcTest.php" line="54" assertions="1" time="2.365870">
+    <testsuite name="built_tests\Form_9687ca0bb48bef602ebc08cb9886f9bcTest" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_9687ca0bb48bef602ebc08cb9886f9bcTest.php" tests="1" assertions="1" failures="1" errors="0" time="4.934013">
+      <testcase name="testValidFormSubmission" class="built_tests\Form_9687ca0bb48bef602ebc08cb9886f9bcTest" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_9687ca0bb48bef602ebc08cb9886f9bcTest.php" line="54" assertions="1" time="4.934013">
         <failure type="PHPUnit_Framework_ExpectationFailedException">built_tests\Form_9687ca0bb48bef602ebc08cb9886f9bcTest::testValidFormSubmission
 Failed asserting that two strings are equal.
 --- Expected
@@ -386,8 +461,8 @@ Failed asserting that two strings are equal.
 +SATURDAY
 +09/24
 +MORE
-+
-+
++Call Now
++1-800-MEINEKE
 +COUPONS
 +SERVICES
 +LOCATIONS
@@ -396,21 +471,67 @@ Failed asserting that two strings are equal.
 +ABOUT
 +FRANCHISE OPPORTUNITIES
 +CUSTOMER SERVICE
-+MEINEKE COUPONS AND DEALS
-+Coupons &amp; Deals: See Current Auto Repair Discounts - Meineke
-+Locate exclusive coupons and offers for a centre near you.
++Previous
++Next
 +Locate me
-+At Meineke, we believe car care should be affordable. Find a centre near you to learn about exclusive savings.
++
++
++
++
++
++
++Find Offers at Your Local Meineke
++Locate me
++Offers available at participating locations only.
++THE NEW MEINEKE APP
++TAKING CARE OF YOUR CAR HAS NEVER BEEN EASIER OR FASTER.
++The new Meineke App lets you access Meineke Rewards, schedule appointments, view your service history, and redeem special offers.
++
++EXPLORE NOW
++MEINEKE AUTO REPAIR SERVICES
++OIL CHANGE
++EXHAUST &amp; MUFFLERS
++BRAKES
++TIRES &amp; WHEELS
++A/C
++STEERING &amp; SUSPENSION
++BATTERIES
++CV JOINTS &amp; DRIVESHAFTS
 +Sign up for EXCLUSIVE OFFERS from Meineke!
 +  SUBMIT
++Meineke Rewards
++Meineke Rewards lets you earn points for the services your vehicle needs. Redeem your points for FREE auto repair and maintenance down the road!
++
++LEARN MORE
++What Makes Meineke the Smart Choice for Your Fleet?
++Meineke has put together an entire package of repair and preventative maintenance services, specializing in quick, timely repairs to minimize down time.
++LEARN MORE
++Entrepreneur
++Ranked #50 overall in 2016
++DISCOVER THE BENEFITS OF OWNING A MEINEKE CAR CARE CENTER.
++Turn the key on your very own Meineke franchise!
++LEARN MORE
++“I saw the success of other Meineke dealers and decided it was time to do it for myself.”
++- Bucky Cochran, Multi-Unit Owner, North Carolina
++Meineke Credit Card
++Special financing available!*
++APPLY TODAY
++*Subject to credit approval. Minimum monthly payments required. See store for details.
++Featured Locations
++Find a featured Meineke Car Care Center near you, including some of our newest grand openings.
++Coming Soon
++Meineke Car Care Centers are popping up all over the nation. Find out if one is opening near you and get notified when the doors open!
 +LOCATIONS
++Featured
++Coming Soon
 +COUPONS
 +SERVICES
 +ABOUT
-+Aeroplan
++Meineke Credit Card
 +Rewards
 +Fleet Services
 +Roadside Assistance
++Dictionary
 +Meineke Careers
 +Meineke International
 +Sitemap
@@ -418,16 +539,19 @@ Failed asserting that two strings are equal.
 +Meineke Blog
 +Franchise Opportunities
 +A Driven Brands Company
++Privacy Policy
 +CONNECT WITH MEINEKE!
-+PRIVACY POLICY
++Facebook Twitter Youtube Google Plus
++DOWNLOAD THE MEINEKE APP
++EXPLORE NOW
 +A FAMILY OF DRIVEN BRANDS'
 
 /var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_9687ca0bb48bef602ebc08cb9886f9bcTest.php:59
 </failure>
       </testcase>
     </testsuite>
-    <testsuite name="built_tests\Form_98380ed1262d71283a97a3e05bee5668Test" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_98380ed1262d71283a97a3e05bee5668Test.php" tests="1" assertions="1" failures="1" errors="0" time="3.953421">
-      <testcase name="testValidFormSubmission" class="built_tests\Form_98380ed1262d71283a97a3e05bee5668Test" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_98380ed1262d71283a97a3e05bee5668Test.php" line="58" assertions="1" time="3.953421">
+    <testsuite name="built_tests\Form_98380ed1262d71283a97a3e05bee5668Test" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_98380ed1262d71283a97a3e05bee5668Test.php" tests="1" assertions="1" failures="1" errors="0" time="7.208885">
+      <testcase name="testValidFormSubmission" class="built_tests\Form_98380ed1262d71283a97a3e05bee5668Test" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_98380ed1262d71283a97a3e05bee5668Test.php" line="58" assertions="1" time="7.208885">
         <failure type="PHPUnit_Framework_ExpectationFailedException">built_tests\Form_98380ed1262d71283a97a3e05bee5668Test::testValidFormSubmission
 Failed asserting that two strings are equal.
 --- Expected
@@ -450,8 +574,8 @@ Failed asserting that two strings are equal.
 +SATURDAY
 +09/24
 +MORE
-+
-+
++Call Now
++1-800-MEINEKE
 +COUPONS
 +SERVICES
 +LOCATIONS
@@ -462,24 +586,25 @@ Failed asserting that two strings are equal.
 +CUSTOMER SERVICE
 +Your account is not active.
 +RESEND ACTIVATION CODE
-+Need an account? Register here
-+MEMBER LOGIN
-+Log in to Meineke’s Rewards Program to take advantage of our auto care perks!
++MEMBER SIGN IN
 +Sign in with Facebook
-+Sign in to access Meineke Rewards points, Vehicles, Service History, and more.
 +Email
 +Password
-+Minimum of 6 characters
 +Forgot password?
 +SIGN IN
++
++Need an account? Register here
 +LOCATIONS
++Featured
++Coming Soon
 +COUPONS
 +SERVICES
 +ABOUT
-+Aeroplan
++Meineke Credit Card
 +Rewards
 +Fleet Services
 +Roadside Assistance
++Dictionary
 +Meineke Careers
 +Meineke International
 +Sitemap
@@ -487,16 +612,19 @@ Failed asserting that two strings are equal.
 +Meineke Blog
 +Franchise Opportunities
 +A Driven Brands Company
++Privacy Policy
 +CONNECT WITH MEINEKE!
-+PRIVACY POLICY
++Facebook Twitter Youtube Google Plus
++DOWNLOAD THE MEINEKE APP
++EXPLORE NOW
 +A FAMILY OF DRIVEN BRANDS'
 
 /var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_98380ed1262d71283a97a3e05bee5668Test.php:63
 </failure>
       </testcase>
     </testsuite>
-    <testsuite name="built_tests\Form_a73f257eb1c565b4701c539e96968fe7Test" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_a73f257eb1c565b4701c539e96968fe7Test.php" tests="1" assertions="1" failures="1" errors="0" time="4.236474">
-      <testcase name="testValidFormSubmission" class="built_tests\Form_a73f257eb1c565b4701c539e96968fe7Test" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_a73f257eb1c565b4701c539e96968fe7Test.php" line="50" assertions="1" time="4.236474">
+    <testsuite name="built_tests\Form_a73f257eb1c565b4701c539e96968fe7Test" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_a73f257eb1c565b4701c539e96968fe7Test.php" tests="1" assertions="1" failures="1" errors="0" time="6.990336">
+      <testcase name="testValidFormSubmission" class="built_tests\Form_a73f257eb1c565b4701c539e96968fe7Test" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_a73f257eb1c565b4701c539e96968fe7Test.php" line="50" assertions="1" time="6.990336">
         <failure type="PHPUnit_Framework_ExpectationFailedException">built_tests\Form_a73f257eb1c565b4701c539e96968fe7Test::testValidFormSubmission
 Failed asserting that two strings are equal.
 --- Expected
@@ -519,8 +647,8 @@ Failed asserting that two strings are equal.
 +SATURDAY
 +09/24
 +MORE
-+
-+
++Call Now
++1-800-MEINEKE
 +COUPONS
 +SERVICES
 +LOCATIONS
@@ -532,26 +660,71 @@ Failed asserting that two strings are equal.
 +MEINEKE SEARCH
 +Locate me
 +Locate your nearest Meineke by using the Store Locator
-+Meineke Locations by Province
-+Sorry, we couldn't find any locations
-+Canada Meineke Locations
-+Alberta
-+Manitoba
-+Newfoundland and Labrador
-+Ontario
++Meineke Locations by State
++U.S. Meineke Locations
++Alaska
++Alabama
++Arkansas
++Arizona
++California
++Colorado
++Connecticut
++Delaware
++Florida
++Georgia
++Iowa
++Idaho
++Illinois
++Indiana
++Kansas
++Kentucky
++Louisiana
++Massachusetts
++Maryland
++Maine
++Michigan
++Minnesota
++Missouri
++Mississippi
++Montana
++North Carolina
++North Dakota
++Nebraska
++New Hampshire
++New Jersey
++New Mexico
++Nevada
++New York
++Ohio
++Oklahoma
++Oregon
++Pennsylvania
++Rhode Island
++South Carolina
++South Dakota
++Tennessee
++Texas
++Utah
++Virginia
++Washington
++Wisconsin
++West Virginia
++Wyoming
 +Map data ©2016 Google, INEGI
 +Terms of Use
-+Report a map error
 +Map
 +Satellite
 +LOCATIONS
++Featured
++Coming Soon
 +COUPONS
 +SERVICES
 +ABOUT
-+Aeroplan
++Meineke Credit Card
 +Rewards
 +Fleet Services
 +Roadside Assistance
++Dictionary
 +Meineke Careers
 +Meineke International
 +Sitemap
@@ -559,16 +732,19 @@ Failed asserting that two strings are equal.
 +Meineke Blog
 +Franchise Opportunities
 +A Driven Brands Company
++Privacy Policy
 +CONNECT WITH MEINEKE!
-+PRIVACY POLICY
++Facebook Twitter Youtube Google Plus
++DOWNLOAD THE MEINEKE APP
++EXPLORE NOW
 +A FAMILY OF DRIVEN BRANDS'
 
 /var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_a73f257eb1c565b4701c539e96968fe7Test.php:55
 </failure>
       </testcase>
     </testsuite>
-    <testsuite name="built_tests\Form_ae1bc0b85c935e8cbf931e25753df5e5Test" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_ae1bc0b85c935e8cbf931e25753df5e5Test.php" tests="1" assertions="1" failures="1" errors="0" time="2.578290">
-      <testcase name="testValidFormSubmission" class="built_tests\Form_ae1bc0b85c935e8cbf931e25753df5e5Test" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_ae1bc0b85c935e8cbf931e25753df5e5Test.php" line="50" assertions="1" time="2.578290">
+    <testsuite name="built_tests\Form_ae1bc0b85c935e8cbf931e25753df5e5Test" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_ae1bc0b85c935e8cbf931e25753df5e5Test.php" tests="1" assertions="1" failures="1" errors="0" time="5.197908">
+      <testcase name="testValidFormSubmission" class="built_tests\Form_ae1bc0b85c935e8cbf931e25753df5e5Test" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_ae1bc0b85c935e8cbf931e25753df5e5Test.php" line="50" assertions="1" time="5.197908">
         <failure type="PHPUnit_Framework_ExpectationFailedException">built_tests\Form_ae1bc0b85c935e8cbf931e25753df5e5Test::testValidFormSubmission
 Failed asserting that two strings are equal.
 --- Expected
@@ -591,8 +767,8 @@ Failed asserting that two strings are equal.
 +SATURDAY
 +09/24
 +MORE
-+
-+
++Call Now
++1-800-MEINEKE
 +COUPONS
 +SERVICES
 +LOCATIONS
@@ -604,12 +780,93 @@ Failed asserting that two strings are equal.
 +MEINEKE COMING SOON
 +New Locations Coming Soon
 +We’re opening many more shops across the nation and around the world, check out the locations opening soon and get notified when they do!
-+Filter Locations by Province:
++Filter Locations by State:
 +SHOW ALL
-+  ONTARIO
-+Meineke Hamilton
-+970 Barton Street East
-+Hamilton, ON L8L 3C7
++  COLORADO
++Meineke Loveland
++1539 W Eisenhower Blvd.
++Loveland, CO 80537
++See Shop Page
++FLORIDA
++Meineke Orlando
++E. Colonial Drive &amp; Knight Avenue
++Orlando, FL 32826
++See Shop Page
++Meineke Orlando
++7108 Narcoossee Rd
++Orlando, FL 32822
++See Shop Page
++Meineke Fort Myers
++9300 Cloverleaf Ct
++Fort Myers, FL 33912
++See Shop Page
++Meineke Royal Palm Beach
++1201-2 Royal Beach Blvd
++Royal Palm Beach, FL 33411
++See Shop Page
++Meineke Ocala
++6187 SW Highway 200
++Ocala, FL 34476
++See Shop Page
++ILLINOIS
++Meineke Wood River
++1250 Miland Street
++Wood River, IL 62095
++See Shop Page
++KANSAS
++Meineke Overland Park
++7525 Metcalf Avenue
++Overland Park, KS 66204
++See Shop Page
++MASSACHUSETTS
++Meineke South Dartmouth
++543 Dartmouth Street
++South Dartmouth, MA 02748
++See Shop Page
++MISSISSIPPI
++Meineke Gulfport
++15230 Creosote Rd
++Gulfport, MS 39503
++See Shop Page
++NEVADA
++Meineke Las Vegas
++4348 East Craig Road
++Las Vegas, NV 89115
++See Shop Page
++Meineke Las Vegas
++2005 S. Decatur Blvd.
++Las Vegas, NV 89102
++See Shop Page
++NORTH CAROLINA
++Meineke Supply
++690 Ocean Highway West
++Supply, NC 28462
++See Shop Page
++OHIO
++Meineke Columbus
++6091 Cleveland Ave
++Columbus, OH 43229
++See Shop Page
++TEXAS
++Meineke College Station
++204 Southwest Pkwy E
++College Station, TX 77840-4662
++See Shop Page
++Meineke Austin
++319 E Ben White Blvd
++Austin, TX 78704
++See Shop Page
++Meineke Fort Worth
++7300 Calmont Ave
++Fort Worth, TX 76116
++See Shop Page
++Meineke Houston
++1051 Silber Rd
++Houston, TX 77055
++See Shop Page
++Meineke Mckinney
++195 N Stonebridge Drive
++Mckinney, TX 75071
 +See Shop Page
 +CHECK BACK REGULARLY FOR SHOPS OPENING SOON NEAR YOU!
 +Locate a Shop
@@ -618,13 +875,16 @@ Failed asserting that two strings are equal.
 +HAVE QUESTIONS? We Want to Hear Back From You
 +SEND FEEDBACK
 +LOCATIONS
++Featured
++Coming Soon
 +COUPONS
 +SERVICES
 +ABOUT
-+Aeroplan
++Meineke Credit Card
 +Rewards
 +Fleet Services
 +Roadside Assistance
++Dictionary
 +Meineke Careers
 +Meineke International
 +Sitemap
@@ -632,26 +892,29 @@ Failed asserting that two strings are equal.
 +Meineke Blog
 +Franchise Opportunities
 +A Driven Brands Company
++Privacy Policy
 +CONNECT WITH MEINEKE!
-+PRIVACY POLICY
++Facebook Twitter Youtube Google Plus
++DOWNLOAD THE MEINEKE APP
++EXPLORE NOW
 +A FAMILY OF DRIVEN BRANDS'
 
 /var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_ae1bc0b85c935e8cbf931e25753df5e5Test.php:55
 </failure>
       </testcase>
     </testsuite>
-    <testsuite name="built_tests\Form_cdc6b8d6950e3a02b1ddab69cd6dea12Test" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_cdc6b8d6950e3a02b1ddab69cd6dea12Test.php" tests="1" assertions="0" failures="0" errors="1" time="9.944718">
-      <testcase name="testValidFormSubmission" class="built_tests\Form_cdc6b8d6950e3a02b1ddab69cd6dea12Test" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_cdc6b8d6950e3a02b1ddab69cd6dea12Test.php" line="54" assertions="0" time="9.944718">
+    <testsuite name="built_tests\Form_cdc6b8d6950e3a02b1ddab69cd6dea12Test" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_cdc6b8d6950e3a02b1ddab69cd6dea12Test.php" tests="1" assertions="0" failures="0" errors="1" time="7.699760">
+      <testcase name="testValidFormSubmission" class="built_tests\Form_cdc6b8d6950e3a02b1ddab69cd6dea12Test" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_cdc6b8d6950e3a02b1ddab69cd6dea12Test.php" line="54" assertions="0" time="7.699760">
         <error type="PHPUnit_Framework_ExceptionWrapper">built_tests\Form_cdc6b8d6950e3a02b1ddab69cd6dea12Test::testValidFormSubmission
 Facebook\WebDriver\Exception\UnknownServerException: unknown error: Runtime.evaluate threw exception: SyntaxError: Unexpected token -
   (Session info: chrome=53.0.2785.116)
   (Driver info: chromedriver=2.23.409687 (c46e862757edc04c06b1bd88724d15a5807b84d1),platform=Linux 4.2.0-42-generic x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 9 milliseconds
+Command duration or timeout: 42 milliseconds
 Build info: version: '3.0.0-beta3', revision: 'c7b525d', time: '2016-09-01 14:57:03 -0700'
 System info: host: 'ovidiu-dev-pc', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.2.0-42-generic', java.version: '1.8.0_91'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.23.409687 (c46e862757edc04c06b1bd88724d15a5807b84d1), userDataDir=/tmp/.org.chromium.Chromium.TiS7rx}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=53.0.2785.116, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 3d6487c5f1c00aef12838790a865b120
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.23.409687 (c46e862757edc04c06b1bd88724d15a5807b84d1), userDataDir=/tmp/.org.chromium.Chromium.WXVED6}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=53.0.2785.116, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 301c6fa40d5244e8f6fca4a1c582b23e
 
 /var/www/html/MEINEKE_GENERATE_TEST_CLASSES/vendor/facebook/webdriver/lib/Exception/WebDriverException.php:121
 /var/www/html/MEINEKE_GENERATE_TEST_CLASSES/vendor/facebook/webdriver/lib/Remote/HttpCommandExecutor.php:353
@@ -662,8 +925,8 @@ Session ID: 3d6487c5f1c00aef12838790a865b120
 </error>
       </testcase>
     </testsuite>
-    <testsuite name="built_tests\Form_fa0b7c417ef7e539f2632fde10fc67bdTest" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_fa0b7c417ef7e539f2632fde10fc67bdTest.php" tests="1" assertions="1" failures="1" errors="0" time="3.986605">
-      <testcase name="testValidFormSubmission" class="built_tests\Form_fa0b7c417ef7e539f2632fde10fc67bdTest" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_fa0b7c417ef7e539f2632fde10fc67bdTest.php" line="50" assertions="1" time="3.986605">
+    <testsuite name="built_tests\Form_fa0b7c417ef7e539f2632fde10fc67bdTest" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_fa0b7c417ef7e539f2632fde10fc67bdTest.php" tests="1" assertions="1" failures="1" errors="0" time="6.256446">
+      <testcase name="testValidFormSubmission" class="built_tests\Form_fa0b7c417ef7e539f2632fde10fc67bdTest" file="/var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_fa0b7c417ef7e539f2632fde10fc67bdTest.php" line="50" assertions="1" time="6.256446">
         <failure type="PHPUnit_Framework_ExpectationFailedException">built_tests\Form_fa0b7c417ef7e539f2632fde10fc67bdTest::testValidFormSubmission
 Failed asserting that two strings are equal.
 --- Expected
@@ -686,8 +949,8 @@ Failed asserting that two strings are equal.
 +SATURDAY
 +09/24
 +MORE
-+
-+
++Call Now
++1-800-MEINEKE
 +COUPONS
 +SERVICES
 +LOCATIONS
@@ -697,29 +960,29 @@ Failed asserting that two strings are equal.
 +FRANCHISE OPPORTUNITIES
 +CUSTOMER SERVICE
 +Already have an account? Sign in here
-+NEW MEMBER SIGN UP
-+Sign up for Meineke’s Rewards Program to take advantage of our auto care perks!
++NEW ACCOUNT REGISTRATION
++Register for your Meineke Rewards Online Account Today!
 +Keep track of valuable rewards points
-+Redeem points for free maintenance services
 +View and keep track of your vehicle’s service history
 +Save and access your favorite Meineke shop
-+Sign Up with Facebook
-+OR
-+Simply fill in your information below to create an account.
++Simply fill in your information below to register your account.
 +
 +We couldn’t find anything matching that phone number or ID.
-+Previous visit? Click Here
++Member Locator
 +Please email me exclusive Meineke offers and promotions.
 +I agree to the terms and conditions of services provided by Meineke
-+CREATE ACCOUNT
++REGISTER ACCOUNT
 +LOCATIONS
++Featured
++Coming Soon
 +COUPONS
 +SERVICES
 +ABOUT
-+Aeroplan
++Meineke Credit Card
 +Rewards
 +Fleet Services
 +Roadside Assistance
++Dictionary
 +Meineke Careers
 +Meineke International
 +Sitemap
@@ -727,8 +990,11 @@ Failed asserting that two strings are equal.
 +Meineke Blog
 +Franchise Opportunities
 +A Driven Brands Company
++Privacy Policy
 +CONNECT WITH MEINEKE!
-+PRIVACY POLICY
++Facebook Twitter Youtube Google Plus
++DOWNLOAD THE MEINEKE APP
++EXPLORE NOW
 +A FAMILY OF DRIVEN BRANDS'
 
 /var/www/html/MEINEKE_GENERATE_TEST_CLASSES/built_tests/Form_fa0b7c417ef7e539f2632fde10fc67bdTest.php:55
