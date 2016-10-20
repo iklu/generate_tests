@@ -85,9 +85,8 @@ class BuildFormsTest implements BuildInterface
                         libxml_use_internal_errors($internalErrors);
 
                         $inputs = $document->getElementsByTagName("input");
-
                         $data['inputs'] = array();
-                        $data['button'] = '';
+
                         foreach ($inputs as $input) {
                             foreach($this->dictionary as $key => $value) {
                                 similar_text($input->getAttribute("name"), $key, $percent);
@@ -99,15 +98,30 @@ class BuildFormsTest implements BuildInterface
                             }
                         }
 
+                        $selects = $document->getElementsByTagName("select");
+                        $data["selects"] = array();
+
+                        foreach ($selects as $select) {
+                            foreach($this->dictionary as $key => $value) {
+                                similar_text($select->getAttribute("name"), $key, $percent);
+                                if($percent > 70) {
+                                    $data['selects'][$select->getAttribute("name")] = $value;
+                                } elseif (strpos(strtolower($select->getAttribute("name")), strtolower($key))) {
+                                    $data['selects'][$select->getAttribute("name")] = $value;
+                                }
+                            }
+                        }
+
 
                         $nodes = $document->getElementsByTagName("button");
+                        $data['button'] = '';
+
                         foreach ($nodes as $node) {
-                            $data['button'] =  $node->nodeValue;
+                            $data['button'] =  trim($node->nodeValue);
                         }
 
                         $data['action'] =  $form->action;
                         $data['page_url'] = $this->urls[$i];
-
 
                         $setUp = SetUp::create();
                         $tearDown = TearDown::create();

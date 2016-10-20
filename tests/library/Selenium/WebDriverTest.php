@@ -8,6 +8,7 @@
 
 namespace tests\library\Selenium;
 
+use Facebook\WebDriver\Exception\NoSuchElementException;
 use Facebook\WebDriver\JavaScriptExecutor;
 use Facebook\WebDriver\Remote\DesiredCapabilities;
 use Facebook\WebDriver\Remote\RemoteWebDriver;
@@ -37,11 +38,8 @@ class WebDriverTest extends \PHPUnit_Framework_TestCase
     {
 
         $this->webDriver->get('http://www.meineke.ca/rewards/register/');
-        $this->webDriver->manage()->window()->maximize();
-        
-        
-        $form = $this->webDriver->findElement(WebDriverBy::xpath("//button[contains(.,'Create account')]"));
-
+        $this->webDriver->manage()->window()->maximize();       
+    
 
         $this->webDriver->executeScript("
         
@@ -75,12 +73,27 @@ class WebDriverTest extends \PHPUnit_Framework_TestCase
     }
 
 
+    /**
+     * @throws NoSuchElementException
+     * @throws \Facebook\WebDriver\Exception\TimeOutException
+     * @throws null
+     */
     public function testValidFormSubmission()
     {
         $this->fillFormAndSubmit();
 
-        $content = $this->webDriver->findElement(WebDriverBy::tagName('body'))->getText();
-        $this->assertEquals('Everything is Good!', $content);
+        $this->webDriver->wait(1000, 3000)->until(function ($webDriver){
+            try{
+                $content = $webDriver->findElement(WebDriverBy::tagName('body'))->getText();
+                $this->assertContains('Sign Up with Facebook', $content);
+                return true;
+
+            } catch (NoSuchElementException $ex) {
+                return false;
+            }
+
+        });
+
     }
 
 }

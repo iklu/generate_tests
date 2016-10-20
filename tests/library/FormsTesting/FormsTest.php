@@ -16,21 +16,28 @@ class FormsTest extends \PHPUnit_Framework_TestCase
 {
     public function testForms(){
 
-        $sitemap = new XmlParser('http://dev.meineke-redesign.beta-directory.com/page-sitemap.xml');
-        $urls = $sitemap->parse();
+        $sitemap = new XmlParser('http://dev.mnkca.beta-directory.com/page-sitemap.xml');
+       // $urls = $sitemap->parse();
+
+        $urls = array("http://dev.meineke-redesign.beta-directory.com/about/real-estate/");
         
         
-        $host = "http://dev.meineke-redesign.beta-directory.com";
+        $host = "http://dev.meineke-redesign.beta-directory.com/about/real-estate/";
 
         $dictionary = array(
             'email'=> 'dragoi__tes__ovidiu2011@yahoo.com',
             'firstname'=>'ovidiu',
             'lastname'=>'dragoi',
             'storeid'=> '4',
+            'fullname'=>'ovidiu dragoi',
             'location'=> 'houston, TX',
-            'center'=>'center',
-            'state'=>'TX',
+            'center'=>4,
+            'state'=>'ON',
+            'locationState'=>'ON',
+            'organization'=>'xivic test',
+            'province'=>'ON',
             'city'=>'houston',
+            'info'=>'Details',
             'phone'=> '0749620628',
             'message'=> 'Testing, please ignore.Thank you!',
             'address'=> 'Texas, Houston',
@@ -58,6 +65,11 @@ class FormsTest extends \PHPUnit_Framework_TestCase
             'landSize' => 300,
             'leaseRate' => 'one',
             'propertyTaxes'=>'multiple',
+            'captcha'=>true,
+            'avgvehicles'=>5,
+            'comment'=> 'Testing, please ignore.Thank you!',
+            'schedule-maintenance'=>true,
+            'position'=>2
         );
         
         $build = new BuildFormsTest($urls ,$host, $dictionary);

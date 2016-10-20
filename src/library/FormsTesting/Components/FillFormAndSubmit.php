@@ -15,6 +15,7 @@ class FillFormAndSubmit
 
         $url = $data['page_url'];
         $inputs = $data['inputs'];
+        $selects = $data['selects'];
         $button = $data['button'];
 
         $string = ' $this->webDriver->get(\''.$url.'\');
@@ -22,14 +23,31 @@ class FillFormAndSubmit
 
         $jsInput = '';
         foreach($inputs as $key => $value) {
-            $jsInput .= ' var '.$key.' = document.querySelectorAll(\'[name=\"'.$key.'\"]\');'.PHP_EOL;
+            $normalizeVariableToJs = str_replace("-","",$key );
+            $jsInput .= ' var '.$normalizeVariableToJs.' = document.querySelectorAll(\'[name=\"'.$key.'\"]\');'.PHP_EOL;
         }
 
         $jsForeachInput = '';
 
         foreach($inputs as $key => $value) {
-            $jsForeachInput .= 'for (i = 0; i < '.$key.'.length; i++) {
-                    '.$key.'[i].value = \"'.$value.'\";
+            $normalizeVariableToJs = str_replace("-","",$key );
+            $jsForeachInput .= 'for (i = 0; i < '.$normalizeVariableToJs.'.length; i++) {
+                    '.$normalizeVariableToJs.'[i].value = \"'.$value.'\";
+            }'.PHP_EOL;
+        }
+
+        $jsSelect = '';
+        foreach($selects as $key => $value) {
+            $normalizeVariableToJs = str_replace("-","",$key );
+            $jsSelect .= ' var '.$normalizeVariableToJs.' = document.querySelectorAll(\'[name=\"'.$key.'\"]\');'.PHP_EOL;
+        }
+
+        $jsSelectForeachInput = '';
+
+        foreach($selects as $key => $value) {
+            $normalizeVariableToJs = str_replace("-","",$key );
+            $jsSelectForeachInput .= 'for (i = 0; i < '.$normalizeVariableToJs.'.length; i++) {
+                    '.$normalizeVariableToJs.'[i].selected = true;
             }'.PHP_EOL;
         }
 
@@ -37,7 +55,9 @@ class FillFormAndSubmit
         $this->webDriver->executeScript("  
         
         '.$jsInput.'  
+        '.$jsSelect.'
         '.$jsForeachInput.'    
+        '.$jsSelectForeachInput.'    
         
         var button = document.getElementsByTagName(\'button\');
         for (var i = 0; i < button.length; i++) {
